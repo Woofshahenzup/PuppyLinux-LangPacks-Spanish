@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ScreenSaver Control
+Name[es]=Control de Protector de Pantalla
+Icon=mini-Setup
+Comment=ScreenSaver Control
+Exec=/usr/local/PupControl/SS-control
+Terminal=false
+Type=Application
+Categories=X-Desktop
+GenericName=ScreenSaver Control

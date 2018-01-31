@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[es]=Buscar iconos
+Name=Icon Finder
+Icon=iconfinder.png
+Comment=Find icons in your system
+Exec=iconfinder
+Terminal=false
+Type=Application
+Categories=X-Graphic-viewer

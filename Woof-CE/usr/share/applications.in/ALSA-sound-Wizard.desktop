@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ALSA sound Wizard
+Icon=/usr/share/pixmaps/puppy/sound.svg
+Comment=ALSA sound Wizard
+Exec=alsawizard
+Terminal=false
+Type=Application
+Categories=X-Setup-wizard
+GenericName=ALSA sound Wizard
+Name[es]=ALSA-Gestor de Sonido
+Name[es]=Asistente de Sonido ALSA

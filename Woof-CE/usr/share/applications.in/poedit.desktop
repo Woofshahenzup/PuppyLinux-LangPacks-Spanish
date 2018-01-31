@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Poedit gettext catalogs editor
+Name[es]=Poedit editor de catálogos gettext
+Comment=Gettext catalogs editor
+Comment[fr]=Outil de traduction
+MimeType=application/x-po;application/x-gettext;text/x-gettext-translation;text/x-po;
+Exec=poedit
+Icon=poedit.png
+Terminal=false
+Type=Application
+Categories=X-Develop
+StartupNotify=true

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=UrxvtSet setup terminal emulator
+Icon=mini-sh.xpm
+Comment=UrxvtSet setup terminal emulator
+Exec=urxvtset
+Type=Application
+Categories=X-Desktop
+GenericName=UrxvtSet
+Name[es]=Urxvt | ajustes emulador de terminal

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PeasyPDF convert/build/extract
+Icon=mini-pdf.xpm
+Comment=Manipulate PDF documents
+Exec=peasypdf
+Terminal=false
+Type=Application
+Categories=X-DocumentUtility
+GenericName=PeasyPDF
+Name[es]=Ayuda de PeasyPDF

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<AppInfo>
+  <Summary>PackIt</Summary>
+  <About xml:lang="en">
+	<Application>PackIt v1.9 - Archiving/Compressing GUI</Application>
+	<Author>SFR</Author>
+	<License>GNU GPL v2</License>
+    <Homepage>http://www.murga-linux.com/puppy/viewtopic.php?t=89211</Homepage>
+  </About>
+  
+  <About xml:lang="pl">
+	<Application>PackIt v1.9 - GUI dla archiwizacji/kompresji</Application>
+	<Author>SFR</Author>
+	<License>GNU GPL v2</License>
+    <Homepage>http://www.murga-linux.com/puppy/viewtopic.php?t=89211</Homepage>
+  </About>
+
+  <About xml:lang="es">
+	<Application>PackIt v1.9 - GUI Archivar/Comprimir</Application>
+	<Author>SFR</Author>
+	<License>GNU GPL v2</License>
+    <Homepage>http://www.murga-linux.com/puppy/viewtopic.php?t=89211</Homepage>
+  </About>
+
+  <About>
+	<Application>PackIt v1.9 - Archiving/Compressing GUI</Application>
+	<Author>SFR</Author>
+	<License>GNU GPL v2</License>
+    <Homepage>http://www.murga-linux.com/puppy/viewtopic.php?t=89211</Homepage>
+  </About>
+</AppInfo>

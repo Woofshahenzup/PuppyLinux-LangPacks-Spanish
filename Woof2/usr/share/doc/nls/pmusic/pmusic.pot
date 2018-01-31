@@ -1,0 +1,1529 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the func package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: func VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-25 16:51-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: box_chooser.sh:17 box_input.sh:23 box_ok.sh:19 func.sh:703
+#: func_bookmarks.sh:203
+msgid "Ok"
+msgstr ""
+
+#: box_splash_progress.sh:8 func.sh:214 func_svg.sh:71 func_trackinfo.sh:924
+#: func_trackinfo.sh:927
+msgid "Please wait"
+msgstr ""
+
+#: box_yesno.sh:20
+msgid "No"
+msgstr ""
+
+#: box_yesno.sh:25
+msgid "Yes"
+msgstr ""
+
+#: func.sh:31
+msgid "Uninstall"
+msgstr ""
+
+#: func.sh:38
+msgid "Runs at startup"
+msgstr ""
+
+#: func.sh:42
+msgid "Run now"
+msgstr ""
+
+#: func.sh:56 func.sh:58 gui_menu.sh:36
+msgid "Plugins"
+msgstr ""
+
+#: func.sh:64
+msgid "Check new Plugins"
+msgstr ""
+
+#: func.sh:126
+msgid "Expanding m3u files"
+msgstr ""
+
+#: func.sh:149
+msgid "Dependecy check"
+msgstr ""
+
+#: func.sh:214
+msgid "No FAQ available on local system. Downloading from internet"
+msgstr ""
+
+#: func.sh:220 func_podcast.sh:16 func_radio.sh:17 func_trackinfo.sh:11
+msgid "Not able to connect to internet"
+msgstr ""
+
+#: func.sh:252 func.sh:874 func.sh:885 func.sh:954 func.sh:964
+msgid "Missing index. See menu:"
+msgstr ""
+
+#: func.sh:252 func.sh:874 func.sh:885 func.sh:954 func.sh:964 gui_menu.sh:72
+msgid "Music sources"
+msgstr ""
+
+#: func.sh:252 func.sh:885 func_add.sh:127 func_radio.sh:87 func_radio.sh:125
+#: gui_add.sh:91 gui_menu.sh:125
+msgid "Radio stations"
+msgstr ""
+
+#: func.sh:252 func.sh:874 func.sh:885 func.sh:954 func.sh:964
+#: func_bookmarks.sh:141 gui_menu.sh:93 gui_menu.sh:109 gui_menu.sh:126
+#: gui_menu.sh:142 gui_menu.sh:153 gui_menu.sh:162
+msgid "Setup"
+msgstr ""
+
+#: func.sh:259
+msgid "Radio Genre"
+msgstr ""
+
+#: func.sh:262
+msgid "Radio Country"
+msgstr ""
+
+#: func.sh:280
+msgid "B R O W S E"
+msgstr ""
+
+#: func.sh:280
+msgid "M Y   M U S I C"
+msgstr ""
+
+#: func.sh:280 func_index.sh:83
+msgid "Tracks"
+msgstr ""
+
+#: func.sh:280 func_index.sh:85
+msgid "Collections"
+msgstr ""
+
+#: func.sh:280
+msgid "R A D I O   H I T S"
+msgstr ""
+
+#: func.sh:290
+msgid "R A D I O    S T A T I O N S"
+msgstr ""
+
+#: func.sh:290 func_id3tagger.sh:89 gui_menu.sh:128 gui_trackinfo.sh:155
+msgid "Genre"
+msgstr ""
+
+#: func.sh:290 gui_menu.sh:133
+msgid "Country"
+msgstr ""
+
+#: func.sh:290
+msgid "W E B    M U S I C"
+msgstr ""
+
+#: func.sh:295 gui_menu.sh:87 gui_menu.sh:146
+msgid "Browse"
+msgstr ""
+
+#: func.sh:297
+msgid "P O D C A S T"
+msgstr ""
+
+#: func.sh:299
+msgid "Setup in Music-Source menu"
+msgstr ""
+
+#: func.sh:302
+msgid "B O O K M A R K S"
+msgstr ""
+
+#: func.sh:308
+msgid "M O S T   P O P U L A R"
+msgstr ""
+
+#: func.sh:314
+msgid "R E C E N T"
+msgstr ""
+
+#: func.sh:317
+msgid "H I S T O R Y"
+msgstr ""
+
+#: func.sh:340 gui_menu.sh:73
+msgid "Overview"
+msgstr ""
+
+#: func.sh:341
+msgid "Expand m3u files"
+msgstr ""
+
+#: func.sh:382
+msgid "Remove from playlist (middle-button)"
+msgstr ""
+
+#: func.sh:384 func_config.sh:203 func_config.sh:289 func_trackinfo.sh:56
+#: gui_menu.sh:259
+msgid "Track info"
+msgstr ""
+
+#: func.sh:385
+msgid "Show location"
+msgstr ""
+
+#: func.sh:386
+msgid "Edit audio-stream (and keep meta-info)"
+msgstr ""
+
+#: func.sh:388 func.sh:588
+msgid "Rename source file"
+msgstr ""
+
+#: func.sh:389 func.sh:626
+msgid "Copy source file"
+msgstr ""
+
+#: func.sh:390 func.sh:637
+msgid "Delete source file"
+msgstr ""
+
+#: func.sh:593
+msgid ""
+"Filename is empty!\n"
+"Be aware that use of some special chars (like \\\"|) in filename clears value."
+msgstr ""
+
+#: func.sh:600 func.sh:722
+msgid "already exist"
+msgstr ""
+
+#: func.sh:663 func.sh:665 func.sh:668 gui_menu.sh:33
+msgid "Save playlist"
+msgstr ""
+
+#: func.sh:667 func_trackinfo.sh:744 gui_menu.sh:16
+msgid "File"
+msgstr ""
+
+#: func.sh:678
+msgid ""
+"Without paths, the definition is relative, and the playlist will work even if you move your music to another location. The downside is that the playlist must be in the same directory as the songs.\n"
+"\n"
+"ONLY m3u files support this option."
+msgstr ""
+
+#: func.sh:681
+msgid "Include path"
+msgstr ""
+
+#: func.sh:685
+msgid "Only m3u files support this option"
+msgstr ""
+
+#: func.sh:690
+msgid "Filetype"
+msgstr ""
+
+#: func.sh:721 func_export.sh:345 func_export.sh:368 func_trackinfo.sh:773
+msgid "Warning"
+msgstr ""
+
+#: func.sh:723 func_export.sh:345 func_export.sh:368 func_radiohits.sh:105
+#: func_trackinfo.sh:775
+msgid "Do you want to overwrite existing file?"
+msgstr ""
+
+#: func.sh:847
+msgid "C O L L E C T I O N S"
+msgstr ""
+
+#: func.sh:864
+msgid "T R A C K S"
+msgstr ""
+
+#: func.sh:874 func.sh:954 func.sh:964 func_index.sh:35 gui_menu.sh:92
+msgid "My Music"
+msgstr ""
+
+#: func.sh:879
+msgid "R A D I O"
+msgstr ""
+
+#: func.sh:890
+msgid "W E B   M U S I C"
+msgstr ""
+
+#: func.sh:905
+msgid "Missing index limits search"
+msgstr ""
+
+#: func.sh:905
+msgid "Much SLOWER"
+msgstr ""
+
+#: func.sh:905
+msgid "No multitag search"
+msgstr ""
+
+#: func.sh:905
+msgid "Max results is 500 pr search"
+msgstr ""
+
+#: func.sh:905 func_webmusic.sh:130
+msgid "See Setup in Music-sources menu"
+msgstr ""
+
+#: func.sh:938
+msgid "is not installed"
+msgstr ""
+
+#: func.sh:959 gui_add.sh:76 gui_menu.sh:95
+msgid "My Tracks"
+msgstr ""
+
+#: func.sh:968 gui_add.sh:82 gui_menu.sh:100
+msgid "My Collections"
+msgstr ""
+
+#: func.sh:982 gui_menu.sh:171
+msgid "Recent played"
+msgstr ""
+
+#: func.sh:996
+msgid "History"
+msgstr ""
+
+#: func.sh:1000 func.sh:1002
+msgid "info"
+msgstr ""
+
+#: func.sh:1003 gui_menu.sh:304 gui_menu.sh:326
+msgid "I want music"
+msgstr ""
+
+#: func.sh:1004
+msgid ""
+"In addition to be an audioplayer and music manager, pMusic is also a tool to build up your own local music collection. This includes audio, lyrics, album art and album playlists.\n"
+"\n"
+"In the Music-Source menu, you will find different ways to access music. One of the sources is Radio-Hits that records a radio station and splits the music tracks into different files with correct naming. See Radio-Hits setup for more info.\n"
+"\n"
+"When it comes to lyrics, album art and album playlists, these are downloaded while playing a track. You can store them to a given directory. This is set in the preferences.\n"
+"\n"
+"A local storage is recommended for snapiness. Lyrics and album art will work ok without a local storage, but not Album playlists. pMusic will search through your music collection and put together songs belonging to each album. These album playlists (and their tracks) will be available when searching, and in the track info window.\n"
+"\n"
+"pMusic also supports jamendo.com which is a website for free music. It contains a huge amount of music; freely available for you."
+msgstr ""
+
+#: func_add.sh:11
+msgid "Add more"
+msgstr ""
+
+#: func_add.sh:158 func_add.sh:220 func_add.sh:250
+msgid "does not exist. You can remove non-existing files from the music database in MyMusic setup. See Music Sources menu."
+msgstr ""
+
+#: func_add.sh:163 func_add.sh:209
+msgid "Importing playlist"
+msgstr ""
+
+#: func_bookmarks.sh:15 func_bookmarks.sh:141 func_bookmarks.sh:143
+#: gui_menu.sh:161 gui_menu.sh:164
+msgid "Bookmarks"
+msgstr ""
+
+#: func_bookmarks.sh:31
+msgid "This is a temporary track, and you can not bookmark it"
+msgstr ""
+
+#: func_bookmarks.sh:88
+msgid "Remove"
+msgstr ""
+
+#: func_bookmarks.sh:89 func_bookmarks.sh:113
+msgid "Rename"
+msgstr ""
+
+#: func_bookmarks.sh:91
+msgid "Add item to playlist"
+msgstr ""
+
+#: func_bookmarks.sh:92 gui_navigation.sh:21
+msgid "Play"
+msgstr ""
+
+#: func_bookmarks.sh:146 func_bookmarks.sh:181
+msgid "Path / URL"
+msgstr ""
+
+#: func_bookmarks.sh:147
+msgid "The path"
+msgstr ""
+
+#: func_bookmarks.sh:153 func_index.sh:124
+msgid "Index music directory"
+msgstr ""
+
+#: func_bookmarks.sh:160 func_bookmarks.sh:181 func_podcast.sh:107
+#: func_podcast.sh:143
+msgid "Name"
+msgstr ""
+
+#: func_bookmarks.sh:161
+msgid "The name is what shows up when you add music"
+msgstr ""
+
+#: func_bookmarks.sh:162
+msgid "Fetch playing song"
+msgstr ""
+
+#: func_bookmarks.sh:172
+msgid "You can include the timestamp of the playing track. This means that clicking on this bookmark later will start the track from current time-position."
+msgstr ""
+
+#: func_bookmarks.sh:174
+msgid "Keep timestamp"
+msgstr ""
+
+#: func_bookmarks.sh:179
+msgid ""
+"Move bookmarks by dragging them up/down\n"
+"Right-click for more options"
+msgstr ""
+
+#: func_bookmarks.sh:197
+msgid "Apply"
+msgstr ""
+
+#: func_cd.sh:24 gui_menu.sh:82
+msgid "Probing disc"
+msgstr ""
+
+#: func_cd.sh:35
+msgid "No valid audio-CD inserted"
+msgstr ""
+
+#: func_cd.sh:45 func_progressbar.sh:95
+msgid "No disc inserted"
+msgstr ""
+
+#: func_cd.sh:127 func_progressbar.sh:94
+msgid "No tracks detected"
+msgstr ""
+
+#: func_cd.sh:129
+msgid "CD audio"
+msgstr ""
+
+#: func_config.sh:102 func_config.sh:203
+msgid "Playback"
+msgstr ""
+
+#: func_config.sh:104
+msgid "Master volum most often is a mono channel, and does not support different level for left and right speaker. You must specify correct channel for your system to get mixer volume to work as a balance controller."
+msgstr ""
+
+#: func_config.sh:105 gui_mixer.sh:6 gui_mixer.sh:23
+msgid "Speaker channel"
+msgstr ""
+
+#: func_config.sh:112
+msgid ""
+"Auto is the recommended choice , but there are 2\n"
+"reasons for setting your soundcard:\n"
+"1. If there is installed more than 1 card you might\n"
+"want to define which one to use.\n"
+"2. If you struggles with bad sound quality, defining\n"
+"your card could improve playback.\n"
+"\n"
+"NOTE!\n"
+"You must restart preferences window to rebuild speaker list\n"
+"for your chosen soundcard.\n"
+"\n"
+"NOTE!\n"
+"By setting the souncard you also bound the alsa driver to\n"
+"Pmusic. This means other programs will not play audio as long\n"
+"as Pmusic is active. On the other hand, Pmusic will not\n"
+"play if sound driver is in use by other program.\n"
+"\n"
+"NOTE!\n"
+"The equalizer requires soundcard set to Auto."
+msgstr ""
+
+#: func_config.sh:131
+msgid "Sound card"
+msgstr ""
+
+#: func_config.sh:139
+msgid "CD device"
+msgstr ""
+
+#: func_config.sh:149
+msgid "Give Pmusic higher CPU-priority (to avoid stutter)"
+msgstr ""
+
+#: func_config.sh:155
+msgid "Gap between tracks (in seconds)"
+msgstr ""
+
+#: func_config.sh:172 func_config.sh:174 func_config.sh:200 func_config.sh:202
+#: gui_menu.sh:35 gui_toolbar.sh:5
+msgid "Preferences"
+msgstr ""
+
+#: func_config.sh:203 func_config.sh:344 func_id3tagger.sh:123 gui_menu.sh:222
+msgid "Playlist"
+msgstr ""
+
+#: func_config.sh:203 func_id3tagger.sh:128
+msgid "Music-sources"
+msgstr ""
+
+#: func_config.sh:206 func_config.sh:207
+msgid "General"
+msgstr ""
+
+#: func_config.sh:206 func_config.sh:264
+msgid "External progams"
+msgstr ""
+
+#: func_config.sh:210
+msgid "Language"
+msgstr ""
+
+#: func_config.sh:223
+msgid "Theme"
+msgstr ""
+
+#: func_config.sh:235
+msgid "Frontend (window preset)"
+msgstr ""
+
+#: func_config.sh:247
+msgid "Show tooltips"
+msgstr ""
+
+#: func_config.sh:251
+msgid "Depending of how you set up pMusic, it may require some disk space. Please point Data storage to a suitable location."
+msgstr ""
+
+#: func_config.sh:252 func_config.sh:253
+msgid "Data storage"
+msgstr ""
+
+#: func_config.sh:266
+msgid "Web browser"
+msgstr ""
+
+#: func_config.sh:270
+msgid "Audio editor"
+msgstr ""
+
+#: func_config.sh:274
+msgid "Text editor"
+msgstr ""
+
+#: func_config.sh:291
+msgid "Extended track info   (Resource hungry for low powered systems)"
+msgstr ""
+
+#: func_config.sh:295
+msgid "Album art in main window"
+msgstr ""
+
+#: func_config.sh:296
+msgid "Update info for playing track"
+msgstr ""
+
+#: func_config.sh:297
+msgid "Track info when browsing files"
+msgstr ""
+
+#: func_config.sh:298
+msgid "Name of playing track for radio streams"
+msgstr ""
+
+#: func_config.sh:300 func_trackinfo.sh:745 gui_trackinfo.sh:224
+#: gui_trackinfo.sh:292 gui_trackinfo.sh:348
+msgid "Local storage"
+msgstr ""
+
+#: func_config.sh:303
+msgid "Save track info on harddrive for later use."
+msgstr ""
+
+#: func_config.sh:309
+msgid ""
+"pMusic will prefer track-info stored locally over grabbing from internet. This is faster and not depending on connection to the website.\n"
+"\n"
+"pMusic detects most of the track-info, but depends on meta-tags for at least artist and track-title. Check out the mass-tagger tool in the Music-sources menu.\n"
+"\n"
+"Album-art is only accepted for local storage if large image at amazon.com is found. This because of quality. Otherwise you can manually store from the track-info window.\n"
+"\n"
+"Album list checks if you got tracks of the matching album, and builds a *.pmu file for later use. This adds new features, but is also the most cpu-consuming option."
+msgstr ""
+
+#: func_config.sh:318 func_radiohits.sh:140
+msgid "More info"
+msgstr ""
+
+#: func_config.sh:327 gui_trackinfo.sh:208 gui_trackinfo.sh:390
+msgid "Lyrics"
+msgstr ""
+
+#: func_config.sh:332
+msgid "Album artwork"
+msgstr ""
+
+#: func_config.sh:337
+msgid "Album list (recommended)"
+msgstr ""
+
+#: func_config.sh:345
+msgid "Set name of multiple playlists"
+msgstr ""
+
+#: func_config.sh:352
+msgid "Music Sources"
+msgstr ""
+
+#: func_config.sh:355
+msgid "Default file-browser path"
+msgstr ""
+
+#: func_config.sh:367
+msgid "Max NEW podcasts to download from a url"
+msgstr ""
+
+#: func_config.sh:373
+msgid "Search while typing (resource hungry)"
+msgstr ""
+
+#: func_export.sh:31
+msgid "Info"
+msgstr ""
+
+#: func_export.sh:33
+msgid "pMusic will try to grab CD-disc information from the internet. You can decide which part of the info to use for naming of the copied tracks."
+msgstr ""
+
+#: func_export.sh:35 func_id3tagger.sh:60 func_trackinfo.sh:838
+#: gui_trackinfo.sh:68 gui_trackinfo.sh:363 gui_trackinfo.sh:390
+msgid "Artist"
+msgstr ""
+
+#: func_export.sh:36 func_id3tagger.sh:68 func_trackinfo.sh:838 gui_add.sh:152
+#: gui_trackinfo.sh:103 gui_trackinfo.sh:331 gui_trackinfo.sh:366
+#: gui_trackinfo.sh:390
+msgid "Album"
+msgstr ""
+
+#: func_export.sh:37
+msgid "Track-number"
+msgstr ""
+
+#: func_export.sh:38 func_id3tagger.sh:64 func_trackinfo.sh:838 gui_add.sh:152
+#: gui_trackinfo.sh:85 gui_trackinfo.sh:354
+msgid "Title"
+msgstr ""
+
+#: func_export.sh:44
+msgid "CD-Audio tracks"
+msgstr ""
+
+#: func_export.sh:46
+msgid "Define name of new files"
+msgstr ""
+
+#: func_export.sh:56
+msgid "Works for"
+msgstr ""
+
+#: func_export.sh:57
+msgid "Add meta-information to new files"
+msgstr ""
+
+#: func_export.sh:67 func_export.sh:199 func_export.sh:242
+msgid "Export"
+msgstr ""
+
+#: func_export.sh:69 gui_menu.sh:223
+msgid "Export tracks in playlist"
+msgstr ""
+
+#: func_export.sh:70
+msgid "Destination"
+msgstr ""
+
+#: func_export.sh:72
+msgid "Target directory"
+msgstr ""
+
+#: func_export.sh:82
+msgid "Filename will be based on the meta information recieved together with the downloaded stream."
+msgstr ""
+
+#: func_export.sh:83
+msgid "Split radio-stream into tracks. (See also music source Radio Hits)"
+msgstr ""
+
+#: func_export.sh:90
+msgid "Bookmark target directory"
+msgstr ""
+
+#: func_export.sh:95
+msgid "Build m3u playlist of exported tracks (not radio)"
+msgstr ""
+
+#: func_export.sh:100
+msgid "Add Numbering to keep sort order (not radio)"
+msgstr ""
+
+#: func_export.sh:109 gui_menu.sh:223
+msgid "Start with number"
+msgstr ""
+
+#: func_export.sh:120
+msgid "Convert"
+msgstr ""
+
+#: func_export.sh:121
+msgid "Converting is required for internet streams, - like tracks from jamendo.com or similar."
+msgstr ""
+
+#: func_export.sh:124
+msgid "NOTE! Radio-streams can not be converted. They will be recorded in their original format (mp3/ogg). Converting has to be done in a second stage."
+msgstr ""
+
+#: func_export.sh:128
+msgid "Specify output format"
+msgstr ""
+
+#: func_export.sh:156 func_trackinfo.sh:344 func_trackinfo.sh:977
+msgid "Audio format"
+msgstr ""
+
+#: func_export.sh:174
+msgid "Bitrate (bits/sec)"
+msgstr ""
+
+#: func_export.sh:180
+msgid "Samplerate (hz)"
+msgstr ""
+
+#: func_export.sh:186 func_trackinfo.sh:348 func_trackinfo.sh:979
+msgid "Channels"
+msgstr ""
+
+#: func_export.sh:345 func_export.sh:368 func_radiohits.sh:105
+#: func_trackinfo.sh:774
+msgid "already exists"
+msgstr ""
+
+#: func_id3tagger.sh:53 func_id3tagger.sh:55 func_id3tagger.sh:165
+msgid "Tag all tracks in list"
+msgstr ""
+
+#: func_id3tagger.sh:72 gui_add.sh:152 gui_trackinfo.sh:120
+#: gui_trackinfo.sh:366
+msgid "Year"
+msgstr ""
+
+#: func_id3tagger.sh:76 gui_trackinfo.sh:137
+msgid "Track nr"
+msgstr ""
+
+#: func_id3tagger.sh:96 gui_add.sh:152 gui_trackinfo.sh:186
+msgid "Comment"
+msgstr ""
+
+#: func_id3tagger.sh:121
+msgid "What list of files to act on"
+msgstr ""
+
+#: func_id3tagger.sh:137 func_id3tagger.sh:159 gui_trackinfo.sh:47
+msgid "Clear tags"
+msgstr ""
+
+#: func_id3tagger.sh:142
+msgid "Save tags"
+msgstr ""
+
+#: func_id3tagger.sh:159
+msgid "Do you really want to clear the tags for ALL files in the list?"
+msgstr ""
+
+#: func_index.sh:33
+msgid "My Music Setup"
+msgstr ""
+
+#: func_index.sh:36
+msgid "My Music is a database (db) of music on your system. During use, pMusic stores info of tracks like meta-tags, lyrics, albumart, ... If you want more info in place at once, you can scan your audio-files right now."
+msgstr ""
+
+#: func_index.sh:38
+msgid "Where to look for your music"
+msgstr ""
+
+#: func_index.sh:66
+msgid "Options (much slower)"
+msgstr ""
+
+#: func_index.sh:68
+msgid "Add meta-info to db"
+msgstr ""
+
+#: func_index.sh:73
+msgid "Remove entries in db pointing to non-existing files"
+msgstr ""
+
+#: func_index.sh:96
+msgid "Cancel"
+msgstr ""
+
+#: func_index.sh:103
+msgid "Start indexing"
+msgstr ""
+
+#: func_index.sh:127 func_progressbar.sh:92
+msgid "not found"
+msgstr ""
+
+#: func_index.sh:151 func_index.sh:168
+msgid "Indexing files"
+msgstr ""
+
+#: func_index.sh:176
+msgid "Improving syntax"
+msgstr ""
+
+#: func_index.sh:185
+msgid "Checking for non-existing files"
+msgstr ""
+
+#: func_player.sh:45
+msgid "You can not jump in a stream."
+msgstr ""
+
+#: func_player.sh:50 gui_menu.sh:265
+msgid "Jump to time"
+msgstr ""
+
+#: func_player.sh:50
+msgid "Jump in song to time"
+msgstr ""
+
+#: func_podcast.sh:51
+msgid "Downloading"
+msgstr ""
+
+#: func_podcast.sh:95 gui_menu.sh:152 gui_menu.sh:155
+msgid "Podcast"
+msgstr ""
+
+#: func_podcast.sh:97
+msgid "Define podcast"
+msgstr ""
+
+#: func_podcast.sh:113
+msgid "Add to podcast list"
+msgstr ""
+
+#: func_podcast.sh:143
+msgid "Days"
+msgstr ""
+
+#: func_podcast.sh:150
+msgid "Download podcasts in list"
+msgstr ""
+
+#: func_podcast.sh:174
+msgid "Archive"
+msgstr ""
+
+#: func_progressbar.sh:82
+msgid "No connection"
+msgstr ""
+
+#: func_progressbar.sh:85
+msgid "Corrupted file"
+msgstr ""
+
+#: func_progressbar.sh:89
+msgid "Unknown format"
+msgstr ""
+
+#: func_progressbar.sh:101
+msgid "Reading CD"
+msgstr ""
+
+#: func_progressbar.sh:103
+msgid "Source not detected"
+msgstr ""
+
+#: func_progressbar.sh:107 func_radio.sh:14
+msgid "Connecting"
+msgstr ""
+
+#: func_progressbar.sh:110
+msgid "Playback error"
+msgstr ""
+
+#: func_progressbar.sh:113
+msgid "Buffering...Please wait"
+msgstr ""
+
+#: func_radio.sh:63
+msgid "Downloading radio index."
+msgstr ""
+
+#: func_radio.sh:69 func_webmusic.sh:216
+msgid "No connection to server"
+msgstr ""
+
+#: func_radio.sh:85
+msgid "Radio stations setup"
+msgstr ""
+
+#: func_radio.sh:88 func_radio.sh:97 func_webmusic.sh:168 func_webmusic.sh:176
+msgid "Install"
+msgstr ""
+
+#: func_radio.sh:88 func_webmusic.sh:168
+msgid "Advanced"
+msgstr ""
+
+#: func_radio.sh:90
+msgid ""
+"This is a one-click download and install of the radio-station index.\n"
+"\n"
+"The index file will be 1Mb+ when installed, and give you access to 13000+ radio stations."
+msgstr ""
+
+#: func_radio.sh:104
+msgid ""
+"The installable index might be too old for you. Do not worry, it is possible to build a new index, based on the very recent info at radiosure.com. - Depending on your system, this will take some time.\n"
+"\n"
+"The radio-database is static, which means user can not edit it manually. To include new URLs, you should add a bookmark or contact www.radiosure.com to include wanted stream-adress. Be aware that pMusic only supports the stream-formats mp3 and ogg."
+msgstr ""
+
+#: func_radio.sh:114 func_webmusic.sh:187
+msgid "Build index"
+msgstr ""
+
+#: func_radio.sh:123
+msgid "Last indexing"
+msgstr ""
+
+#: func_radiohits.sh:33
+msgid "Download directory is missing. Do you want to create it?"
+msgstr ""
+
+#: func_radiohits.sh:40
+msgid "Preset has not saved the download directory. We will it save now."
+msgstr ""
+
+#: func_radiohits.sh:40 func_trackinfo.sh:758 gui_trackinfo.sh:58
+#: gui_trackinfo.sh:282
+msgid "Save"
+msgstr ""
+
+#: func_radiohits.sh:49 func_radiohits.sh:131 gui_menu.sh:108
+msgid "Radio Hits"
+msgstr ""
+
+#: func_radiohits.sh:54
+msgid "Delete tracks smaller than 1Mb (adverts?)"
+msgstr ""
+
+#: func_radiohits.sh:63
+msgid "Apply (make tracks searchable)"
+msgstr ""
+
+#: func_radiohits.sh:68
+msgid "Quit (and Apply)"
+msgstr ""
+
+#: func_radiohits.sh:129
+msgid "Radio Hits setup"
+msgstr ""
+
+#: func_radiohits.sh:132
+msgid "RadioHits Grabber is a tool to split up radio-streams to music tracks - based on meta-information. This means you will get one mp3/ogg file, with correct naming, for each of the songs the radio station plays."
+msgstr ""
+
+#: func_radiohits.sh:136
+msgid ""
+"* Grab a top-40 station over-night once a week, and you will always have the latest hits available. Or choose a radio station playing your preferred genre and let it grab a week or so. - You will then have the most popular songs on your harddrive.\n"
+"* Be aware that this will require a lot of free space on your harddisk.\n"
+"* Not all radio-stations provide useful meta-info. You might need to test some of your favorite stations to build a local hit-db without too much manual work. The attached presets should be fine. Both 1.FM and 181.fm (USA) provides a variety of good-quality-channels for many genres.\n"
+"* If a track starts badly or contains a piece of commercials, you can just delete the file and wait for next play. Or, you can edit the track manually in programs like MhWaveEdit or Audacity... The fader effect is very useful to fade in/out the song."
+msgstr ""
+
+#: func_radiohits.sh:144
+msgid "Preset"
+msgstr ""
+
+#: func_radiohits.sh:161
+msgid "Download to"
+msgstr ""
+
+#: func_radiohits.sh:169
+msgid "Fetch playing stream"
+msgstr ""
+
+#: func_radiohits.sh:176
+msgid "Save preset"
+msgstr ""
+
+#: func_radiohits.sh:182
+msgid "Start grabbing tracks"
+msgstr ""
+
+#: func_trackinfo.sh:10
+msgid "Searching more info"
+msgstr ""
+
+#: func_trackinfo.sh:46 gui_menu.sh:272
+msgid "Now playing"
+msgstr ""
+
+#: func_trackinfo.sh:62
+msgid "Extended track info is turned OFF."
+msgstr ""
+
+#: func_trackinfo.sh:62
+msgid "See Preferences in File menu."
+msgstr ""
+
+#: func_trackinfo.sh:63
+msgid "Update all trackinfo based on the latest saved information"
+msgstr ""
+
+#: func_trackinfo.sh:64
+msgid "Refresh"
+msgstr ""
+
+#: func_trackinfo.sh:118 func_trackinfo.sh:306 func_trackinfo.sh:476
+#: func_trackinfo.sh:477 func_trackinfo.sh:684 func_trackinfo.sh:881
+msgid "Nothing found"
+msgstr ""
+
+#: func_trackinfo.sh:207
+msgid "Missing meta info"
+msgstr ""
+
+#: func_trackinfo.sh:329 gui_trackinfo.sh:381 gui_trackinfo.sh:390
+msgid "Stream"
+msgstr ""
+
+#: func_trackinfo.sh:331
+msgid "Filename"
+msgstr ""
+
+#: func_trackinfo.sh:333 gui_add.sh:152 gui_trackinfo.sh:354
+msgid "Path"
+msgstr ""
+
+#: func_trackinfo.sh:340
+msgid "Size"
+msgstr ""
+
+#: func_trackinfo.sh:342 func_trackinfo.sh:975 gui_add.sh:152
+#: gui_trackinfo.sh:354
+msgid "Length"
+msgstr ""
+
+#: func_trackinfo.sh:346 func_trackinfo.sh:978
+msgid "Samplerate"
+msgstr ""
+
+#: func_trackinfo.sh:350 func_trackinfo.sh:980
+msgid "Bitrate"
+msgstr ""
+
+#: func_trackinfo.sh:353
+msgid "Times played"
+msgstr ""
+
+#: func_trackinfo.sh:355
+msgid "Last played"
+msgstr ""
+
+#: func_trackinfo.sh:740 func_trackinfo.sh:742
+msgid "Save albumart"
+msgstr ""
+
+#: func_trackinfo.sh:786 func_trackinfo.sh:813
+msgid "Only local files can be overwritten"
+msgstr ""
+
+#: func_trackinfo.sh:834
+msgid "Alternative tag information"
+msgstr ""
+
+#: func_trackinfo.sh:836
+msgid "If correct tag-info is not shown in list, it could be that it is not added to the musicbrainz.org database. But most likely the syntax differs from the database. The trick is to cut the Artist/Title info if it contains several words (keep remaining words complete). This will give a wider search, and you can sync the tags with the musicbrainz db."
+msgstr ""
+
+#: func_trackinfo.sh:846
+msgid "Save new info and close window"
+msgstr ""
+
+#: func_trackinfo.sh:905
+msgid "Searching for lyrics"
+msgstr ""
+
+#: func_trackinfo.sh:913
+msgid "Searching for artwork"
+msgstr ""
+
+#: func_trackinfo.sh:924
+msgid "Trying to fetch info from internet"
+msgstr ""
+
+#: func_trackinfo.sh:925
+msgid "Trying to fetch info"
+msgstr ""
+
+#: func_trackinfo.sh:927
+msgid "Reading stream info"
+msgstr ""
+
+#: func_trackinfo.sh:928
+msgid ""
+"Note that lyrics-search uses the Meta-info\n"
+"for Artist and Title as search-string.\n"
+"\n"
+"In addition to the local storage (if set), \n"
+"Pmusic will search for lyrics in"
+msgstr ""
+
+#: func_trackinfo.sh:1037 func_trackinfo.sh:1038 func_trackinfo.sh:1039
+#: func_trackinfo.sh:1040 func_trackinfo.sh:1051
+msgid "Missing meta information"
+msgstr ""
+
+#: func_trackinfo.sh:1042
+msgid "Please add Artist and Title, and then choose Save. Pmusic will try to fetch the rest (or search for alternative meta-info"
+msgstr ""
+
+#: func_webmusic.sh:44
+msgid "Connecting to"
+msgstr ""
+
+#: func_webmusic.sh:49
+msgid "No connection to jamendo.com"
+msgstr ""
+
+#: func_webmusic.sh:126
+msgid "Reading index. A moment"
+msgstr ""
+
+#: func_webmusic.sh:130
+msgid "Missing index"
+msgstr ""
+
+#: func_webmusic.sh:138
+msgid "Webmusic browse artist"
+msgstr ""
+
+#: func_webmusic.sh:145 func_webmusic.sh:159
+msgid "Webmusic browse album"
+msgstr ""
+
+#: func_webmusic.sh:154
+msgid "Webmusic browse tracks"
+msgstr ""
+
+#: func_webmusic.sh:165
+msgid "Web Music setup"
+msgstr ""
+
+#: func_webmusic.sh:167 gui_add.sh:95 gui_menu.sh:141
+msgid "Web Music"
+msgstr ""
+
+#: func_webmusic.sh:170
+msgid ""
+"The WebMusic index is a file containing the information of all music at jamendo.com. pMusic will play WebMusic tracks without this index file, but it will benefit of it when it comes to browsing and advanced searching.\n"
+"\n"
+"The index file will be 20Mb+ when installed, and contains info about 270000+ music tracks."
+msgstr ""
+
+#: func_webmusic.sh:182
+msgid ""
+"The installable index may not hold the latest tracks at jamendo.com. You can build the index file yourself of the very recent info.\n"
+"\n"
+"Depending on your system this process may take some hours."
+msgstr ""
+
+#: func_webmusic.sh:194
+msgid "Date of index"
+msgstr ""
+
+#: func_webmusic.sh:196
+msgid "WebMusic Tracks"
+msgstr ""
+
+#: func_webmusic.sh:210
+msgid "Downloading WebMusic index."
+msgstr ""
+
+#: gui_add.sh:13
+msgid "Music-sources overview"
+msgstr ""
+
+#: gui_add.sh:19 gui_add.sh:65
+msgid "Define which sources to search"
+msgstr ""
+
+#: gui_add.sh:26
+msgid "Smart add"
+msgstr ""
+
+#: gui_add.sh:33
+msgid "Go back in source history"
+msgstr ""
+
+#: gui_add.sh:41
+msgid "Go forward in source history"
+msgstr ""
+
+#: gui_add.sh:49
+msgid ""
+"! Free-search: 'nig tnt' finds 'TNT - Desperate night'...\n"
+"  ... while 'nig -tnt' does NOT find any TNT files. \n"
+"! Add files and URLs to playlist.\n"
+"! Browse paths."
+msgstr ""
+
+#: gui_add.sh:68
+msgid "Search"
+msgstr ""
+
+#: gui_add.sh:120
+msgid "Add tracks based on request"
+msgstr ""
+
+#: gui_add.sh:123
+msgid "Add"
+msgstr ""
+
+#: gui_add.sh:135
+msgid "Random"
+msgstr ""
+
+#: gui_add.sh:152
+msgid "Artist / Filename"
+msgstr ""
+
+#: gui_add.sh:152
+msgid "Nr"
+msgstr ""
+
+#: gui_add.sh:152
+msgid "Genre "
+msgstr ""
+
+#: gui_add.sh:152
+msgid "Rate"
+msgstr ""
+
+#: gui_add.sh:152
+msgid "Format"
+msgstr ""
+
+#: gui_add.sh:152
+msgid "Kb/s"
+msgstr ""
+
+#: gui_menu.sh:17 gui_playlist.sh:67
+msgid "New playlist"
+msgstr ""
+
+#: gui_menu.sh:24
+msgid "Open - Music sources"
+msgstr ""
+
+#: gui_menu.sh:28 gui_toolbar.sh:10
+msgid "Play CD-audio"
+msgstr ""
+
+#: gui_menu.sh:37
+msgid "Equalizer"
+msgstr ""
+
+#: gui_menu.sh:45
+msgid "Eject CD"
+msgstr ""
+
+#: gui_menu.sh:50 gui_toolbar.sh:19
+msgid "Quit"
+msgstr ""
+
+#: gui_menu.sh:55
+msgid "Quit and save gui/geometry"
+msgstr ""
+
+#: gui_menu.sh:156
+msgid "No podcasts - run manager in Music-Source menu."
+msgstr ""
+
+#: gui_menu.sh:176
+msgid "Most played"
+msgstr ""
+
+#: gui_menu.sh:177
+msgid "Last day"
+msgstr ""
+
+#: gui_menu.sh:182
+msgid "Most played last day"
+msgstr ""
+
+#: gui_menu.sh:184
+msgid "Last week"
+msgstr ""
+
+#: gui_menu.sh:187
+msgid "Most played last week"
+msgstr ""
+
+#: gui_menu.sh:191
+msgid "Last month"
+msgstr ""
+
+#: gui_menu.sh:194
+msgid "Most played last month"
+msgstr ""
+
+#: gui_menu.sh:199
+msgid "Custom"
+msgstr ""
+
+#: gui_menu.sh:204
+msgid "Bookmark source content"
+msgstr ""
+
+#: gui_menu.sh:208
+msgid "Tag all tracks in source-list"
+msgstr ""
+
+#: gui_menu.sh:211
+msgid "View navigation history"
+msgstr ""
+
+#: gui_menu.sh:216
+msgid "Advanced file search"
+msgstr ""
+
+#: gui_menu.sh:224
+msgid "Burn tracks in playlist"
+msgstr ""
+
+#: gui_menu.sh:228
+msgid "Tag all tracks in playlist"
+msgstr ""
+
+#: gui_menu.sh:240
+msgid "Rename playlists"
+msgstr ""
+
+#: gui_menu.sh:242
+msgid "Go back in playlist history"
+msgstr ""
+
+#: gui_menu.sh:246
+msgid "Go forward in playlist history"
+msgstr ""
+
+#: gui_menu.sh:257 gui_trackinfo.sh:390
+msgid "Track"
+msgstr ""
+
+#: gui_menu.sh:258
+msgid "Bookmark playing track"
+msgstr ""
+
+#: gui_menu.sh:261
+msgid "Play / Pause"
+msgstr ""
+
+#: gui_menu.sh:262
+msgid "Stop"
+msgstr ""
+
+#: gui_menu.sh:263 gui_navigation.sh:28
+msgid "Next track"
+msgstr ""
+
+#: gui_menu.sh:264 gui_navigation.sh:16
+msgid "Previous track"
+msgstr ""
+
+#: gui_menu.sh:270
+msgid "View"
+msgstr ""
+
+#: gui_menu.sh:276
+msgid "Docks"
+msgstr ""
+
+#: gui_menu.sh:278
+msgid "Show/hide Search options"
+msgstr ""
+
+#: gui_menu.sh:282
+msgid "Show/hide Smart Add"
+msgstr ""
+
+#: gui_menu.sh:300
+msgid "Help"
+msgstr ""
+
+#: gui_menu.sh:301
+msgid "About"
+msgstr ""
+
+#: gui_menu.sh:302
+msgid "Frequently asked questions"
+msgstr ""
+
+#: gui_menu.sh:306
+msgid "Dependency check"
+msgstr ""
+
+#: gui_mixer.sh:5
+msgid "Volume"
+msgstr ""
+
+#: gui_mixer.sh:22
+msgid "Balance"
+msgstr ""
+
+#: gui_navigation.sh:21
+msgid "Pause"
+msgstr ""
+
+#: gui_playlist.sh:32
+msgid ""
+"Play mode: Which track should be next\n"
+"- Straight: Follow playlist\n"
+"- Loop: Start over again when last track is played\n"
+"- Shuffle: Play a random track"
+msgstr ""
+
+#: gui_playlist.sh:43
+msgid ""
+"Add track:\n"
+"- after playing track\n"
+"- as last track"
+msgstr ""
+
+#: gui_playlist.sh:53
+msgid "Go BACK in playlist history"
+msgstr ""
+
+#: gui_playlist.sh:60
+msgid "Go FORWARD in playlist history"
+msgstr ""
+
+#: gui_toolbar.sh:24
+msgid "Mute sound"
+msgstr ""
+
+#: gui_trackinfo.sh:45
+msgid "Meta tags"
+msgstr ""
+
+#: gui_trackinfo.sh:51
+msgid "Search for alternative meta information based on ARTIST and TITLE. The search-string does not require complete Artist/Title information, but you MUST use complete words."
+msgstr ""
+
+#: gui_trackinfo.sh:53
+msgid "Alternative meta-info"
+msgstr ""
+
+#: gui_trackinfo.sh:57
+msgid "After saving new meta-info, you need to click the Refresh button to update info in the other tabs - Lyrics, albumart"
+msgstr ""
+
+#: gui_trackinfo.sh:214
+msgid "Edit local file"
+msgstr ""
+
+#: gui_trackinfo.sh:219 gui_trackinfo.sh:287
+msgid "Manually override default search order."
+msgstr ""
+
+#: gui_trackinfo.sh:233
+msgid "lyricwiki.org"
+msgstr ""
+
+#: gui_trackinfo.sh:241
+msgid "elyrics.net"
+msgstr ""
+
+#: gui_trackinfo.sh:248
+msgid "azlyrics.com"
+msgstr ""
+
+#: gui_trackinfo.sh:276 gui_trackinfo.sh:390
+msgid "Album art"
+msgstr ""
+
+#: gui_trackinfo.sh:301
+msgid "amazon.com"
+msgstr ""
+
+#: gui_trackinfo.sh:306
+msgid "albumart.org"
+msgstr ""
+
+#: gui_trackinfo.sh:311
+msgid "Local file"
+msgstr ""
+
+#: gui_trackinfo.sh:337
+msgid "Add tracks to playlist"
+msgstr ""
+
+#: gui_trackinfo.sh:341
+msgid "Clear album list and make a new search"
+msgstr ""
+
+#: gui_trackinfo.sh:364
+msgid "Discography"
+msgstr ""
+
+#: gui_trackinfo.sh:370
+msgid "Webpages"
+msgstr ""
+
+#: gui_trackinfo.sh:370
+msgid "doubleclick to browse"
+msgstr ""
+
+#: gui_trackinfo.sh:372
+msgid "Type"
+msgstr ""
+
+#: pmusic.sh:79
+msgid "Initialising"
+msgstr ""
+
+#: pmusic.sh:371
+msgid "Data Storage are not there. Either it does not exist, or it is not mounted. Data Storage is set in the preferences."
+msgstr ""

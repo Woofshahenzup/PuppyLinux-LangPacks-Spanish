@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AFI 1.0.2 Automated Frugal Install
+Name[de]=AFI 1.0.2 Automatisierte Frugale Installation
+Name[es]=AFI | instalación frugal automática 
+Comment=Make a frugal install of a puppy linux from iso
+Comment[es]=Hacer instalación frugal de Puppy Linux a partir de archivo ISO
+Comment[de]=Ein Puppy Linux frugal aus einem ISO heraus installieren
+Exec=/usr/local/automated-frugal-install/automated_frugal_install
+Icon=lazypuppylogo.png
+Type=Application
+Categories=Utility
+GenericName=AFI 1.0.2 Automated Frugal Install
+GenericName[de]=AFI 1.0.2 Automatisierte Frugale Installation

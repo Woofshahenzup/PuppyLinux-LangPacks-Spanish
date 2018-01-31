@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Openbox window manager config
+Name[es]=Preferencias de Openbox
+Comment=Openbox configuration manager
+Comment[es]=Gestor de configuración de Openbox
+Icon=obconf.png
+Exec=obconf
+Categories=DesktopSettings
+MimeType=application/x-openbox-theme
+StartupNotify=true
+Terminal=false

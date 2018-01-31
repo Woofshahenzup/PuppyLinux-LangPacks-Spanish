@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[es]=YASSM | entrar en red SAMBA
+Name=YASSM Samba share login
+Icon=/usr/local/yassm/samba-menu.xpm
+Comment=Yet another Samba share mounter
+Exec=/usr/local/yassm/samba-login
+Terminal=false
+Type=Application
+Categories=Network
+GenericName=samba-login

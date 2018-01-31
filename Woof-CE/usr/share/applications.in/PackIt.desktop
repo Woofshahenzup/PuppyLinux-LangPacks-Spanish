@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PackIt
+Comment=Archiving/Compressing GUI
+Comment[pl]=GUI dla archiwizacji/kompresji
+Comment[es]=GUI Archivar/Comprimir
+Exec=/usr/local/apps/PackIt/AppRun
+Terminal=false
+Type=Application
+Icon=PackIt.png
+Categories=X-Utility-package

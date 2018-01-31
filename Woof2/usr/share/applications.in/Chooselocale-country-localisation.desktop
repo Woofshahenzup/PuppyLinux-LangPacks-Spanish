@@ -1,0 +1,18 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Chooselocale country localisation
+Name[ru]=Chooselocale выбор страны
+Name[de]=Landesspezifische Einstellungen
+Name[es]=Chooselocale-Localizacón de Países
+Name[hu_HU]=Chooselocale területi beállítások
+Name[ja]=Chooselocale 言語と国の設定
+Name[zh_CN]=Chooselocale 语言及地区选择
+Name[zh_TW]=Chooselocale 語言及地區選擇
+Icon=mini-font.xpm
+Comment=Chooselocale country localisation
+Exec=chooselocale
+Terminal=false
+Type=Application
+Categories=X-DesktopCountry
+GenericName=Chooselocale country localisation
+Name[es]=Chooselocale | configuración de idioma

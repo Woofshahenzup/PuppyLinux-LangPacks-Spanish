@@ -1,0 +1,16 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=pupMd5sum Graphical Checksum
+Name[es]=pupMd5sum MD5sum
+Name[fr]=pupMd5sum MD5sum
+Name[de]=pupMd5sum - Prüfsummen vergleichen
+Icon=/usr/share/pixmaps/hash.xpm
+Comment=pupMd5sum Graphical Checksum
+Comment[es]=pupMd5sum MD5sum
+Comment[fr]=pupMd5sum MD5sum
+Comment[de]=pupMd5sum - Prüfsummen vergleichen
+Exec=pupmd5sum.sh
+Terminal=false
+Type=Application
+Categories=Utility
+GenericName=pupMd5sum Graphical Checksum

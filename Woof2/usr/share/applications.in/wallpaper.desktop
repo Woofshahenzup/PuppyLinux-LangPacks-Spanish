@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pwallpaper background image chooser
+Icon=mini-cave.xpm
+Comment=Set backdrop image
+Exec=pwallpaper
+Terminal=false
+Type=Application
+Categories=DesktopSettings
+GenericName=Pwallpaper
+Name[es]=Fondo de pantalla

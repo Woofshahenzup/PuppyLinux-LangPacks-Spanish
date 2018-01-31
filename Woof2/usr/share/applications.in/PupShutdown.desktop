@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PupShutdown manager
+Name[es]=PupShutdown gestor de apagado
+Icon=/usr/local/PupShutdown/icons/shutdown48.png
+Comment=PupShutdown manager
+Comment[es]=PupShutdown gestor de apagado
+Exec=PupShutdown
+Terminal=false
+Type=Application
+Categories=Utility
+GenericName=PupShutdown manager

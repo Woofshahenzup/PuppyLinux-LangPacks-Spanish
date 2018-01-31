@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Default Applications Chooser
+Icon=Executable.xpm
+Comment=Default Applications Chooser
+Exec=defaults-chooser
+Terminal=false
+Type=Application
+Categories=X-SetupEntry
+GenericName=Default-Applications-Chooser
+Name[es]=Predefinir Aplicaciones Favoritas

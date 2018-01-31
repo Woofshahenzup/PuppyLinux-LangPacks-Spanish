@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pdvdrsab DVD rip/shrink/author/burn
+Icon=/usr/share/pixmaps/puppy/cd_rip.svg
+Comment=Pdvdrsab rip/shrink/author/burn
+Exec=pdvdrsab
+Terminal=false
+Type=Application
+Categories=X-Multimedia-optical
+GenericName=Pdvdrsab
+Name[es]=Pdvdrsab | herramientas de DVD

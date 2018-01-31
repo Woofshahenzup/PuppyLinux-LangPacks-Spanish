@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Set timezone
+Name[ru]=Выбор часового пояса
+Name[de]=Zeitzone einstellen
+Name[es]=Ajusta Zona Horaria
+Name[ja]=タイムゾーンの設定
+Name[zh_CN]=设置时区
+Name[zh_TW]=設定時區
+Icon=mini-clock.xpm
+Comment=Set timezone
+Exec=timezone-set
+Terminal=false
+Type=Application
+Categories=X-DesktopCountry
+GenericName=Set timezone
+Name[es]=Ajustar huso horario

@@ -1,0 +1,1167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Poedit 1.4.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-25 16:42+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/edframe.cpp:2001
+msgid " (modified)"
+msgstr ""
+
+#: ../src/edframe.cpp:1971 ../src/export_html.cpp:152
+#, c-format
+msgid ""
+"%i %% translated, %i strings (%i fuzzy, %i bad tokens, %i not translated)"
+msgstr ""
+
+#: ../src/catalog.cpp:148
+#, c-format
+msgid "%i lines of file '%s' were not loaded correctly."
+msgstr ""
+
+#: standard input:70
+msgid "&About..."
+msgstr ""
+
+#: standard input:57
+msgid "&Automatically translate using TM"
+msgstr ""
+
+#: ../src/edframe.cpp:2784
+msgid "&Bookmarks"
+msgstr ""
+
+#: standard input:36 standard input:46
+msgid "&Close"
+msgstr ""
+
+#: standard input:68
+msgid "&Contents..."
+msgstr ""
+
+#: standard input:47
+msgid "&Edit"
+msgstr ""
+
+#: ../src/edframe.cpp:535 standard input:34 standard input:37
+msgid "&File"
+msgstr ""
+
+#: standard input:50
+msgid "&Find..."
+msgstr ""
+
+#: standard input:61 standard input:62
+msgid "&Fullscreen view"
+msgstr ""
+
+#: ../src/edapp.cpp:107 standard input:71
+msgid "&Help"
+msgstr ""
+
+#: standard input:39
+msgid "&New catalog..."
+msgstr ""
+
+#: standard input:41
+msgid "&Open..."
+msgstr ""
+
+#: standard input:53
+msgid "&Preferences"
+msgstr ""
+
+#: standard input:35 standard input:45
+msgid "&Preferences..."
+msgstr ""
+
+#: standard input:58
+msgid "&Purge deleted translations"
+msgstr ""
+
+#: standard input:42
+msgid "&Save"
+msgstr ""
+
+#: standard input:59
+msgid "&Settings..."
+msgstr ""
+
+#: standard input:67
+msgid "&Shaded translations list"
+msgstr ""
+
+#: standard input:49
+msgid "&Show references"
+msgstr ""
+
+#: standard input:55
+msgid "&Update from sources"
+msgstr ""
+
+#: standard input:60
+msgid "&View"
+msgstr ""
+
+#: ../src/catalog.cpp:1511
+#, c-format
+msgid "'%s' is not a valid POT file."
+msgstr ""
+
+#: standard input:100
+msgid "(%f will be substituted with filename, %l with line number)"
+msgstr ""
+
+#: ../src/summarydlg.cpp:71
+#, c-format
+msgid "(%i new, %i obsolete)"
+msgstr ""
+
+#: standard input:168
+msgid "(0 new, 0 obsolete)"
+msgstr ""
+
+#: ../src/chooselang.cpp:88
+msgid "(Use default language)"
+msgstr ""
+
+#: ../src/edframe.cpp:921
+msgid "(none of these)"
+msgstr ""
+
+#: standard input:18
+msgid "< Previous"
+msgstr ""
+
+#: ../src/manager.cpp:402
+msgid "<unnamed>"
+msgstr ""
+
+#: standard input:111
+msgid "Add"
+msgstr ""
+
+#: standard input:31
+msgid "Add directory to the list"
+msgstr ""
+
+#: ../src/transmemupd_wizard.cpp:138 standard input:176
+msgid "Add files"
+msgstr ""
+
+#: standard input:142
+msgid "Add path to the list of directories where catalogs lie."
+msgstr ""
+
+#: standard input:85
+msgid "Always change focus to text input field"
+msgstr ""
+
+#: standard input:135
+msgid "An item in input files list:"
+msgstr ""
+
+#: standard input:133
+msgid "An item in keywords list:"
+msgstr ""
+
+#: standard input:89
+msgid "Automatic spellchecking"
+msgstr ""
+
+#: ../src/export_html.cpp:192
+msgid "Automatic translation"
+msgstr ""
+
+#: ../src/edframe.cpp:2251 ../src/edframe.cpp:2255
+msgid "Automatic translations:"
+msgstr ""
+
+#: standard input:79
+msgid "Automatically check for new version of Poedit"
+msgstr ""
+
+#: standard input:82
+msgid "Automatically compile .mo file on save"
+msgstr ""
+
+#: standard input:118
+msgid "Automatically translate when updating catalog"
+msgstr ""
+
+#: ../src/edframe.cpp:2203
+#, c-format
+msgid "Automatically translated %u strings"
+msgstr ""
+
+#: ../src/edframe.cpp:2188
+msgid "Automatically translating..."
+msgstr ""
+
+#: ../src/manager.cpp:274
+msgid "Bad Tokens"
+msgstr ""
+
+#: standard input:157
+msgid "Base path:"
+msgstr ""
+
+#: standard input:81
+msgid "Behavior"
+msgstr ""
+
+#: ../src/catalog.cpp:689
+msgid "Broken catalog file: plural form msgstr used without msgid_plural"
+msgstr ""
+
+#: ../src/catalog.cpp:651
+msgid ""
+"Broken catalog file: singular form msgstr used together with msgid_plural"
+msgstr ""
+
+#: standard input:30 standard input:110 standard input:141 standard input:173
+msgid "Browse"
+msgstr ""
+
+#: standard input:54
+msgid "C&atalog"
+msgstr ""
+
+#: standard input:91
+msgid "CR/LF conversion"
+msgstr ""
+
+#: standard input:4 standard input:17 standard input:33 standard input:125
+#: standard input:140 standard input:144 standard input:146 standard input:162
+msgid "Cancel"
+msgstr ""
+
+#: ../src/transmem.cpp:745
+msgid "Cannot create database directory!"
+msgstr ""
+
+#: ../src/gexecute.cpp:178 ../src/gexecute.cpp:234
+msgid "Cannot execute program: "
+msgstr ""
+
+#: ../src/transmemupd.cpp:202
+msgid "Cannot extract catalogs from RPM file."
+msgstr ""
+
+#: standard input:10
+msgid "Case sensitive"
+msgstr ""
+
+#: ../src/manager.cpp:270
+msgid "Catalog"
+msgstr ""
+
+#: ../src/edframe.cpp:969 ../src/edframe.cpp:994 ../src/edframe.cpp:1035
+#: ../src/edframe.cpp:1087 ../src/edframe.cpp:1205
+msgid "Catalog modified. Do you want to save changes?"
+msgstr ""
+
+#: standard input:38
+msgid "Catalogs &manager"
+msgstr ""
+
+#: standard input:78
+msgid "Change UI language"
+msgstr ""
+
+#: ../src/export_html.cpp:137 standard input:153
+msgid "Charset:"
+msgstr ""
+
+#: standard input:104 standard input:106
+msgid "Choose"
+msgstr ""
+
+#: standard input:5
+msgid "Clear"
+msgstr ""
+
+#: standard input:6
+msgid "Clear the comment"
+msgstr ""
+
+#: standard input:185
+msgid "Comment"
+msgstr ""
+
+#: standard input:87
+msgid "Comment window is editable"
+msgstr ""
+
+#: standard input:2
+msgid "Comment:"
+msgstr ""
+
+#: standard input:115
+msgid "Configuration"
+msgstr ""
+
+#: ../src/manager.cpp:432 ../src/manager.cpp:452
+msgid "Confirmation"
+msgstr ""
+
+#: ../src/edframe.cpp:2231 standard input:48
+msgid "Copy original to translation field"
+msgstr ""
+
+#: ../src/catalog.cpp:1049
+#, c-format
+msgid "Couldn't load file %s, it is probably corrupted."
+msgstr ""
+
+#: ../src/export_html.cpp:126 standard input:152
+msgid "Country:"
+msgstr ""
+
+#: standard input:21
+msgid "Create new translations project"
+msgstr ""
+
+#: standard input:108
+msgid "Database"
+msgstr ""
+
+#: ../src/transmem.cpp:327
+#, c-format
+msgid "Database error: %s"
+msgstr ""
+
+#: standard input:24 standard input:123
+msgid "Delete"
+msgstr ""
+
+#: ../src/editlbox/editlbox.cpp:171
+msgid "Delete item"
+msgstr ""
+
+#: standard input:25
+msgid "Delete the project"
+msgstr ""
+
+#: ../src/manager.cpp:326
+msgid "Directories:"
+msgstr ""
+
+#: standard input:64
+msgid "Display &line numbers"
+msgstr ""
+
+#: standard input:63
+msgid "Display &quotes"
+msgstr ""
+
+#: ../src/manager.cpp:451
+msgid ""
+"Do you really want to do mass update of\n"
+"all catalogs in this project?"
+msgstr ""
+
+#: ../src/edframe.cpp:2145
+msgid ""
+"Do you really want to remove all translations that are no longer used from "
+"the catalog?\n"
+"If you continue with purging, you will have to translate them again if they "
+"are added back in the future."
+msgstr ""
+
+#: ../src/manager.cpp:431
+msgid "Do you want to delete the project?"
+msgstr ""
+
+#: standard input:97
+msgid "Don't change format of existing catalogs"
+msgstr ""
+
+#: standard input:44
+msgid "E&xport..."
+msgstr ""
+
+#: standard input:22 standard input:122
+msgid "Edit"
+msgstr ""
+
+#: standard input:52
+msgid "Edit &comment"
+msgstr ""
+
+#: standard input:1 standard input:186
+msgid "Edit comment"
+msgstr ""
+
+#: ../src/editlbox/editlbox.cpp:169
+msgid "Edit item"
+msgstr ""
+
+#: standard input:28
+msgid "Edit project"
+msgstr ""
+
+#: standard input:7
+msgid "Edit the file in text editor"
+msgstr ""
+
+#: standard input:23
+msgid "Edit the project"
+msgstr ""
+
+#: standard input:80
+msgid "Editor"
+msgstr ""
+
+#: standard input:99
+msgid "Editor executable:"
+msgstr ""
+
+#: standard input:90
+msgid "Enables on-the-fly spellchecking"
+msgstr ""
+
+#: ../src/edframe.cpp:1359
+msgid "Entries in the catalog are probably incorrect."
+msgstr ""
+
+#: ../src/edframe.cpp:1926
+#, c-format
+msgid "Error loading message catalog file '%s'."
+msgstr ""
+
+#: ../src/fileviewer.cpp:101
+#, c-format
+msgid "Error opening file %s!"
+msgstr ""
+
+#: ../src/catalog.cpp:1325
+msgid "Error saving catalog"
+msgstr ""
+
+#: ../src/edframe.cpp:1178
+msgid "Export as..."
+msgstr ""
+
+#: standard input:98
+msgid "External editor"
+msgstr ""
+
+#: ../src/digger.cpp:65
+#, c-format
+msgid "Failed command: %s"
+msgstr ""
+
+#: ../src/digger.cpp:160
+msgid "Failed to load extracted catalog."
+msgstr ""
+
+#: ../src/digger.cpp:66
+msgid "Failed to merge gettext catalogs."
+msgstr ""
+
+#: ../src/digger.cpp:94 ../src/digger.cpp:105
+msgid "Failed to read extracted catalog."
+msgstr ""
+
+#: ../src/edframe.cpp:1060 ../src/edframe.cpp:1103
+#, c-format
+msgid "File '%s' doesn't exist."
+msgstr ""
+
+#: ../src/edframe.cpp:1077
+#, c-format
+msgid "File '%s' is not message catalog."
+msgstr ""
+
+#: ../src/catalog.cpp:1285
+#, c-format
+msgid ""
+"File '%s' is read-only and cannot be saved.\n"
+"Please save it under different name."
+msgstr ""
+
+#: ../src/transmemupd_wizard.cpp:63
+msgid "Files List"
+msgstr ""
+
+#: standard input:16
+msgid "Find in automatic comments"
+msgstr ""
+
+#: standard input:15
+msgid "Find in comments"
+msgstr ""
+
+#: standard input:13
+msgid "Find in original strings"
+msgstr ""
+
+#: standard input:14
+msgid "Find in translations"
+msgstr ""
+
+#: standard input:8
+msgid "Find..."
+msgstr ""
+
+#: standard input:102
+msgid "Fonts"
+msgstr ""
+
+#: ../src/edframe.cpp:2695
+#, c-format
+msgid "Form %i"
+msgstr ""
+
+#: ../src/edframe.cpp:2697
+#, c-format
+msgid "Form %i (e.g. \"%u\")"
+msgstr ""
+
+#: standard input:187 standard input:188
+msgid "Fullscreen view"
+msgstr ""
+
+#: ../src/manager.cpp:273 standard input:183
+msgid "Fuzzy"
+msgstr ""
+
+#: ../src/export_html.cpp:198
+msgid "Fuzzy translation"
+msgstr ""
+
+#: ../src/edframe.cpp:1014 ../src/edframe.cpp:1142
+msgid "GNU Gettext catalogs (*.po)|*.po|All files (*.*)|*.*"
+msgstr ""
+
+#: ../src/edframe.cpp:1230 ../src/edframe.cpp:1377
+msgid "GNU Gettext templates (*.pot)|*.pot|All files (*.*)|*.*"
+msgstr ""
+
+#: standard input:69
+msgid "GNU gettext documentation"
+msgstr ""
+
+#: standard input:145
+msgid "Generate TM database"
+msgstr ""
+
+#: standard input:113
+msgid "Generate database"
+msgstr ""
+
+#: ../src/edframe.cpp:1429
+msgid "Gettext syntax error"
+msgstr ""
+
+#: ../src/edframe.cpp:2768
+#, c-format
+msgid "Go to bookmark %i\tCtrl-%i"
+msgstr ""
+
+#: ../src/edframe.cpp:2765
+#, c-format
+msgid "Go to bookmark %i\tCtrl-Alt-%i"
+msgstr ""
+
+#: ../src/edframe.cpp:1180
+msgid "HTML file (*.html)|*.html"
+msgstr ""
+
+#: standard input:74
+msgid "Identity"
+msgstr ""
+
+#: standard input:88
+msgid "If checked, the comment window will be editable."
+msgstr ""
+
+#: standard input:130
+msgid "Invocation:"
+msgstr ""
+
+#: ../src/settingsdlg.cpp:71 standard input:160
+msgid "Keywords"
+msgstr ""
+
+#: ../src/chooselang.cpp:161
+msgid "Language selection"
+msgstr ""
+
+#: ../src/export_html.cpp:123 standard input:127 standard input:128
+#: standard input:151
+msgid "Language:"
+msgstr ""
+
+#: ../src/manager.cpp:275
+msgid "Last modified"
+msgstr ""
+
+#: ../src/edlistctrl.cpp:314 ../src/fileviewer.cpp:110
+msgid "Line"
+msgstr ""
+
+#: ../src/catalog.cpp:161
+#, c-format
+msgid "Line %u of file '%s' is corrupted (not valid %s data)."
+msgstr ""
+
+#: standard input:92
+msgid "Line endings format:"
+msgstr ""
+
+#: standard input:129
+msgid "List of extensions separated by semicolons (e.g. *.cpp;*.h):"
+msgstr ""
+
+#: standard input:95
+msgid "Macintosh"
+msgstr ""
+
+#: ../src/catalog.cpp:236
+#, c-format
+msgid "Malformed header: '%s'"
+msgstr ""
+
+#: standard input:116
+msgid "Max. # of missing words:"
+msgstr ""
+
+#: standard input:117
+msgid "Max. difference in sentence length:"
+msgstr ""
+
+#: ../src/catalog.cpp:1482
+msgid "Merging differences..."
+msgstr ""
+
+#: ../src/editlbox/editlbox.cpp:173
+msgid "Move down"
+msgstr ""
+
+#: ../src/editlbox/editlbox.cpp:172
+msgid "Move up"
+msgstr ""
+
+#: ../src/prefsdlg.cpp:59
+msgid "My Languages"
+msgstr ""
+
+#: standard input:86
+msgid ""
+"Never let the list of strings take focus. If enabled, you must use Ctrl-"
+"arrows for keyboard navigation but you can also type text immediately, "
+"without having to press Tab to change focus."
+msgstr ""
+
+#: standard input:20 standard input:121
+msgid "New"
+msgstr ""
+
+#: standard input:40
+msgid "New catalog from POT file..."
+msgstr ""
+
+#: ../src/editlbox/editlbox.cpp:170
+msgid "New item"
+msgstr ""
+
+#: standard input:165
+msgid "New strings"
+msgstr ""
+
+#: standard input:19
+msgid "Next >"
+msgstr ""
+
+#: ../src/fileviewer.cpp:151
+msgid "No editor specified. Please set it in Preferences dialog."
+msgstr ""
+
+#: ../src/digger.cpp:250
+msgid "No files found in: "
+msgstr ""
+
+#: ../src/edframe.cpp:1446
+msgid "No references to this string found."
+msgstr ""
+
+#: ../src/export_html.cpp:170
+msgid "Notes"
+msgstr ""
+
+#: standard input:3 standard input:32 standard input:124 standard input:139
+#: standard input:161 standard input:169
+msgid "OK"
+msgstr ""
+
+#: standard input:167
+msgid "Obsolete strings"
+msgstr ""
+
+#: standard input:177
+msgid "Open"
+msgstr ""
+
+#: ../src/edframe.cpp:1012 standard input:178
+msgid "Open catalog"
+msgstr ""
+
+#: ../src/edframe.cpp:1228 ../src/edframe.cpp:1375
+msgid "Open catalog template"
+msgstr ""
+
+#: standard input:84
+msgid "Open catalogs manager on Poedit startup"
+msgstr ""
+
+#: standard input:101
+msgid "Open source files in editor, not in file viewer"
+msgstr ""
+
+#: ../src/edlistctrl.cpp:311 ../src/export_html.cpp:163
+msgid "Original string"
+msgstr ""
+
+#: standard input:131
+msgid "Parser command:"
+msgstr ""
+
+#: standard input:126
+msgid "Parser setup"
+msgstr ""
+
+#: standard input:119
+msgid "Parsers"
+msgstr ""
+
+#: ../src/digger.cpp:135
+#, c-format
+msgid "Parsing %s files..."
+msgstr ""
+
+#: standard input:109
+msgid "Path to DB:"
+msgstr ""
+
+#: ../src/settingsdlg.cpp:73 standard input:158
+msgid "Paths"
+msgstr ""
+
+#: standard input:73
+msgid "Personalize"
+msgstr ""
+
+#: standard input:112
+msgid "Pick language from the list of known languages"
+msgstr ""
+
+#: standard input:172
+msgid "Please add directories where locale files are stored on your system:"
+msgstr ""
+
+#: ../src/edframe.cpp:1454
+msgid "Please choose the reference you want to show:"
+msgstr ""
+
+#: ../src/prefsdlg.cpp:355
+msgid "Please select language ISO code:"
+msgstr ""
+
+#: ../src/edframe.cpp:930
+msgid "Please select language code:"
+msgstr ""
+
+#: standard input:155
+msgid "Plural Forms:"
+msgstr ""
+
+#: ../src/edframe.cpp:611
+msgid "Plural:"
+msgstr ""
+
+#: ../src/edframe.cpp:472
+msgid "Poedit"
+msgstr ""
+
+#: ../src/manager.cpp:70
+msgid "Poedit - Catalogs manager"
+msgstr ""
+
+#: ../src/digger.cpp:251
+msgid "Poedit did not find any files in scanned directories."
+msgstr ""
+
+#: ../src/edframe.cpp:2290
+msgid "Poedit is an easy to use translations editor."
+msgstr ""
+
+#: standard input:72
+msgid "Preferences"
+msgstr ""
+
+#: standard input:143
+msgid "Proceed"
+msgstr ""
+
+#: ../src/export_html.cpp:116 standard input:156
+msgid "Project info"
+msgstr ""
+
+#: ../src/export_html.cpp:120 standard input:148
+msgid "Project name and version:"
+msgstr ""
+
+#: standard input:29
+msgid "Project name:"
+msgstr ""
+
+#: ../src/edframe.cpp:2146
+msgid "Purge deleted translations"
+msgstr ""
+
+#: ../src/edframe.cpp:1454
+msgid "References"
+msgstr ""
+
+#: ../src/edframe.cpp:2236 ../src/edframe.cpp:2240
+msgid "References:"
+msgstr ""
+
+#: standard input:114
+msgid "Regenerate translation memory from catalogs in paths listed above."
+msgstr ""
+
+#: standard input:174
+msgid "Reset to defaults"
+msgstr ""
+
+#: standard input:179
+msgid "Save"
+msgstr ""
+
+#: standard input:43
+msgid "Save &as..."
+msgstr ""
+
+#: ../src/edframe.cpp:1141
+msgid "Save as..."
+msgstr ""
+
+#: standard input:180
+msgid "Save catalog"
+msgstr ""
+
+#: ../src/edframe.cpp:970 ../src/edframe.cpp:995 ../src/edframe.cpp:1036
+#: ../src/edframe.cpp:1088 ../src/edframe.cpp:1206
+msgid "Save changes"
+msgstr ""
+
+#: ../src/transmemupd.cpp:152
+msgid "Scanning file: "
+msgstr ""
+
+#: ../src/digger.cpp:121
+msgid "Scanning files..."
+msgstr ""
+
+#: ../src/transmemupd_wizard.cpp:59
+msgid "Search Paths"
+msgstr ""
+
+#: ../src/edframe.cpp:929
+msgid "Select catalog's language"
+msgstr ""
+
+#: ../src/prefsdlg.cpp:368 ../src/transmemupd_wizard.cpp:112
+#: ../src/manager.cpp:306
+msgid "Select directory"
+msgstr ""
+
+#: ../src/prefsdlg.cpp:354
+msgid "Select language"
+msgstr ""
+
+#: ../src/chooselang.cpp:160
+msgid "Select your prefered language"
+msgstr ""
+
+#: ../src/edframe.cpp:2767
+#, c-format
+msgid "Set bookmark %i\tAlt-%i"
+msgstr ""
+
+#: ../src/edframe.cpp:2764
+#, c-format
+msgid "Set bookmark %i\tCtrl-%i"
+msgstr ""
+
+#: standard input:147
+msgid "Settings"
+msgstr ""
+
+#: ../src/edapp.cpp:174
+msgid "Setup"
+msgstr ""
+
+#: standard input:65
+msgid "Show &comment window"
+msgstr ""
+
+#: standard input:66
+msgid "Show automatic c&omments window"
+msgstr ""
+
+#: standard input:83
+msgid "Show summary after catalog update"
+msgstr ""
+
+#: ../src/edframe.cpp:610
+msgid "Singular:"
+msgstr ""
+
+#: standard input:137 standard input:154
+msgid "Source code charset:"
+msgstr ""
+
+#: standard input:120
+msgid "Source code parsers:"
+msgstr ""
+
+#: ../src/fileviewer.cpp:46
+msgid "Source file"
+msgstr ""
+
+#: standard input:11
+msgid "Start from the first item"
+msgstr ""
+
+#: standard input:9
+msgid "String to find:"
+msgstr ""
+
+#: ../src/export_html.cpp:133 standard input:150
+msgid "Team's email address:"
+msgstr ""
+
+#: ../src/export_html.cpp:129 standard input:149
+msgid "Team:"
+msgstr ""
+
+#: ../src/catalog.cpp:1324
+#, c-format
+msgid ""
+"The catalog couldn't be saved in '%s' charset as\n"
+"specified in catalog settings. It was saved in UTF-8 instead\n"
+"and the setting was modified accordingly."
+msgstr ""
+
+#: ../src/catalog.cpp:1041
+msgid ""
+"There were errors when loading the catalog. Some data may be missing or "
+"corrupted as the result."
+msgstr ""
+
+#: standard input:166
+msgid ""
+"These strings are no longer in the sources.\n"
+"Poedit will remove them from the catalog now."
+msgstr ""
+
+#: standard input:164
+msgid ""
+"These strings were found in the sources but were not in the catalog.\n"
+"Poedit will add them to the catalog now."
+msgstr ""
+
+#: ../src/edapp.cpp:174
+msgid ""
+"This is first time you run Poedit.\n"
+"Please fill in your name and email address.\n"
+"(This information is used only in catalogs headers)"
+msgstr ""
+
+#: standard input:132
+msgid ""
+"This is the command used to launch the parser.\n"
+"%o expands to the name of output file, %K to list\n"
+"of keywords, %F to list of input files,\n"
+"%C to charset flag (see below)."
+msgstr ""
+
+#: standard input:138
+#, c-format
+msgid ""
+"This will be attached to the command line\n"
+"only if source codecharset was given. %c expands to charset value."
+msgstr ""
+
+#: standard input:136
+#, c-format
+msgid ""
+"This will be attached to the command line once\n"
+"for each input file. %f expands to the filename."
+msgstr ""
+
+#: standard input:134
+msgid ""
+"This will be attached to the command line once\n"
+"for each keyword. %k expands to the keyword."
+msgstr ""
+
+#: standard input:184
+msgid "Toggled if selected string has fuzzy translation"
+msgstr ""
+
+#: ../src/manager.cpp:271
+msgid "Total"
+msgstr ""
+
+#: ../src/edlistctrl.cpp:312 ../src/export_html.cpp:166
+msgid "Translation"
+msgstr ""
+
+#: standard input:107
+msgid "Translation Memory"
+msgstr ""
+
+#: ../src/transmemupd_wizard.cpp:144
+msgid "Translation files (*.po;*.mo)|*.po;*.mo"
+msgstr ""
+
+#: ../src/transmemupd_wizard.cpp:142
+msgid "Translation files (*.po;*.mo;*.rpm)|*.po;*.mo;*.rpm"
+msgstr ""
+
+#: standard input:51
+msgid "Translation is &fuzzy"
+msgstr ""
+
+#: standard input:175
+msgid ""
+"Translation memory will be built from the files listed below.\n"
+"You can add more files to the list now."
+msgstr ""
+
+#: standard input:170
+msgid "Undo"
+msgstr ""
+
+#: standard input:93
+msgid "Unix"
+msgstr ""
+
+#: ../src/chooselang.cpp:71
+#, c-format
+msgid "Unknown locale code '%s' in registry."
+msgstr ""
+
+#: ../src/manager.cpp:272
+msgid "Untrans"
+msgstr ""
+
+#: standard input:181
+msgid "Update"
+msgstr ""
+
+#: standard input:26
+msgid "Update all"
+msgstr ""
+
+#: standard input:27
+msgid "Update all catalogs in the project"
+msgstr ""
+
+#: standard input:182
+msgid "Update catalog - synchronize it with sources"
+msgstr ""
+
+#: standard input:56
+msgid "Update from &POT file..."
+msgstr ""
+
+#: standard input:163
+msgid "Update summary"
+msgstr ""
+
+#: standard input:171
+msgid "Update translation memory"
+msgstr ""
+
+#: ../src/catalog.cpp:1442
+msgid "Updating catalog..."
+msgstr ""
+
+#: ../src/edframe.cpp:1361
+msgid "Updating the catalog failed. Click on 'More>>' for details."
+msgstr ""
+
+#: standard input:105
+msgid "Use custom font for text fields"
+msgstr ""
+
+#: standard input:103
+msgid "Use custom font for translations list"
+msgstr ""
+
+#: standard input:159
+msgid ""
+"Use these keywords (function names) to recognize translatable strings\n"
+"in source files, in addition to default ones."
+msgstr ""
+
+#: standard input:12
+msgid "Whole words only"
+msgstr ""
+
+#: standard input:94
+msgid "Windows"
+msgstr ""
+
+#: ../src/edframe.cpp:1070
+msgid "You can't drop more than one file on Poedit window."
+msgstr ""
+
+#: ../src/chooselang.cpp:175
+msgid "You must restart Poedit for this change to take effect."
+msgstr ""
+
+#: standard input:77
+msgid "Your email address:"
+msgstr ""
+
+#: standard input:75
+msgid ""
+"Your name and email set below are only used\n"
+"to set the Last-Translator header of GNU gettext files."
+msgstr ""
+
+#: standard input:76
+msgid "Your name:"
+msgstr ""
+
+#: ../src/edframe.cpp:1978
+#, c-format
+msgid "[checking translations: %i left]"
+msgstr ""
+
+#: standard input:96
+msgid "current platform's default"
+msgstr ""
+
+#: ../src/edframe.cpp:2274
+msgid "none"
+msgstr ""

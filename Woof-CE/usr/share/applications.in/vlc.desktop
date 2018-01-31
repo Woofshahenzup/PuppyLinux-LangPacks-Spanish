@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VLC Media Player
+Name[es]=VLC reproductor multimedia
+GenericName=Media Player
+Comment=Play Video and Audio Media
+Exec=vlc
+Icon=/usr/share/icons/hicolor/48x48/apps/vlc.png
+Terminal=false
+Type=Application
+Categories=X-Multimedia-mediaplayer

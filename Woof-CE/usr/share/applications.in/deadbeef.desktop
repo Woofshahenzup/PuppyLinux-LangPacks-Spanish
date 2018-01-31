@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[es]=DeaDBeeF | reproductor de música
+Name=DeaDBeeF
+GenericName=Audio Player
+Comment=deadbeef
+Exec=deadbeef
+Categories=AudioVideo
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/hicolor/48x48/apps/deadbeef.png

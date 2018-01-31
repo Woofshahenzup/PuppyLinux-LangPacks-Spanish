@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Bcrypt file encryption
+Exec=bcrypt_gui
+Icon=/usr/share/pixmaps/puppy/file_lock.svg
+Categories=X-Personal-security
+Name[es]=Bcrypt | cifrado de archivos

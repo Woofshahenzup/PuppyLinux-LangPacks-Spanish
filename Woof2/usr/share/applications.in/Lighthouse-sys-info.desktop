@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lighthouse sys-info
+Name[es]=Lighthouse | información de sistema
+Name[pt]=Lighthouse | informação do sistema
+Comment=Puppy-based System Information
+Exec=sys-info
+Terminal=false
+Type=Application
+Categories=System
+GenericName=System information
+Icon=mini-Setup

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[es]=XChat cliente IRC
+Name=XChat IRC client
+Icon=xchat.png
+Comment[es]=XChat cliente IRC
+Comment=XChat IRC client
+Exec=xchat
+Terminal=false
+Type=Application
+Categories=X-Internet
+GenericName=XChat IRC client

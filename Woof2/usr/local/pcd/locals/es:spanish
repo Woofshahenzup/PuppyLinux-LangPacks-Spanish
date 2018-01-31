@@ -1,0 +1,35 @@
+#!/bin/bash
+#Pcd
+#version=1.x
+#language=spanish
+#translator:Native
+
+set -a
+
+#Gui
+LOC200="Reproductor de CD de audio"
+LOC201="Copiar CD"
+LOC202="Extraer CD"
+LOC203="Leer CD"
+LOC204="Expulsar"
+LOC205="Artista"
+LOC206="Álbum"
+LOC207="Nr"
+LOC208="Canción"
+LOC209="Duración"
+LOC210="Salir"
+LOC206="Álbum"
+
+#Probe
+LOC300="Leyendo disco"
+LOC301="Desconocido"
+
+#Errors
+LOC400="Ningún CD de audio válido insertado"
+LOC401="Ningún disco insertado"
+
+#Tooltips
+LOC800="reproducir canción anterior"
+LOC801="detener"
+LOC802="reproducir canción seleccionada"
+LOC803="reproducir canción siguiente"

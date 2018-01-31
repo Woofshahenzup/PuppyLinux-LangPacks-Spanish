@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Updates Manager -latest from Slackware
+Icon=/usr/share/pixmaps/puppy/package_add.svg
+Comment=Updates Manager -latest from Slackware
+Exec=updates_mgr
+Terminal=false
+Type=Application
+Categories=PackageManager
+GenericName=Updates Manager -latest from Slackware
+Name[es]=Gestor de Actualizaciones -lo último de Slackware

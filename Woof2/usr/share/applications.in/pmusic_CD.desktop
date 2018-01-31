@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CD player/ripper (pMusic)
+Name[es]=Escuchar/extraer CD (pMusic)
+Icon=mini-cd.xpm
+Comment=CD player/ripper (Pmusic)
+Terminal=false
+Type=Application
+Categories=Audio
+GenericName=CD player/ripper (Pmusic)
+Exec=pmusic_CD 

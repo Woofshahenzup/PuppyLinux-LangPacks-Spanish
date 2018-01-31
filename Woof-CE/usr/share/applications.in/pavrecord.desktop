@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pavrecord Audio-Video recorder/player
+Icon=/usr/share/pixmaps/puppy/media-play.svg
+Comment=Pavrecord Audio-Video recorder/player
+Exec=pavrecord
+Terminal=false
+Type=Application
+Categories=Video
+GenericName=Pavrecord Audio-Video recorder/player
+Name[es]=pAVrecord | grabar, reproducir video/audio

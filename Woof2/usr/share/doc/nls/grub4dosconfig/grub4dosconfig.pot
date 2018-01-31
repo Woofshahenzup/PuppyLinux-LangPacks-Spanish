@@ -1,0 +1,387 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-15 07:10+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: grub4dosconfig:66
+msgid "Grub4DosConfig"
+msgstr ""
+
+#: grub4dosconfig:67
+msgid "Configure bootup loader(Grub4Dos)."
+msgstr ""
+
+#: grub4dosconfig:68
+msgid "Click 'OK' to search installed systems."
+msgstr ""
+
+#: grub4dosconfig:69
+msgid "Where to install bootup loader(Grub4Dos)?"
+msgstr ""
+
+#: grub4dosconfig:70
+msgid "Usually on the MBR of the 1st drive"
+msgstr ""
+
+#: grub4dosconfig:73
+msgid "Search within only this device"
+msgstr ""
+
+#: grub4dosconfig:74
+msgid "Do not rewrite the existing boot record"
+msgstr ""
+
+#: grub4dosconfig:75
+msgid "Do not rewrite 'menu.lst'"
+msgstr ""
+
+#: grub4dosconfig:76
+msgid "(Tick options ignored as for floppy)"
+msgstr ""
+
+#: grub4dosconfig:77
+msgid "Grub4Dos Guide"
+msgstr ""
+
+#: grub4dosconfig:78 grub4dosconfig:212
+msgid "Help"
+msgstr ""
+
+#: grub4dosconfig:79
+msgid "You chose nothig to do."
+msgstr ""
+
+#: grub4dosconfig:80
+msgid "Searching. Please wait..."
+msgstr ""
+
+#: grub4dosconfig:82
+msgid "Press 'OK' to quit this program."
+msgstr ""
+
+#: grub4dosconfig:83
+msgid "List of detected operating systems"
+msgstr ""
+
+#: grub4dosconfig:84
+msgid ""
+"You can rewrite each label. Or, erase. Caution: You cannot change their "
+"order."
+msgstr ""
+
+#: grub4dosconfig:85
+msgid "Frugal installed Puppy"
+msgstr ""
+
+#: grub4dosconfig:86
+msgid "Full installed Puppy or other Linux"
+msgstr ""
+
+#: grub4dosconfig:87
+msgid "Windows"
+msgstr ""
+
+#: grub4dosconfig:89
+msgid "Bootable partitions"
+msgstr ""
+
+#: grub4dosconfig:90
+msgid "Comfirmation"
+msgstr ""
+
+#: grub4dosconfig:91
+msgid "The boot loader(Grub4Dos) will be installed on"
+msgstr ""
+
+#: grub4dosconfig:93
+msgid "Press 'OK' to install. Press 'Cancel' if you do not like to."
+msgstr ""
+
+#: grub4dosconfig:94
+msgid "Insert floppy disk (all the data will be eraesed)."
+msgstr ""
+
+#: grub4dosconfig:95
+msgid "Formating floppy. Please wait ..."
+msgstr ""
+
+#: grub4dosconfig:96
+msgid "Installing Grub4Dos. Please wait..."
+msgstr ""
+
+#: grub4dosconfig:98
+msgid "Somewhat error occured."
+msgstr ""
+
+#: grub4dosconfig:99
+msgid "Grub4Dos successfully installed."
+msgstr ""
+
+#: grub4dosconfig:100
+msgid "The file(s),"
+msgstr ""
+
+#: grub4dosconfig:101
+msgid "is on"
+msgstr ""
+
+#: grub4dosconfig:102
+msgid "You can edit 'menu.lst' before reboot."
+msgstr ""
+
+#: grub4dosconfig:103
+msgid ""
+"If you installed on a removable device, ensure unmount the drive before "
+"remove it."
+msgstr ""
+
+#: grub4dosconfig:104
+msgid "Old 'menu.lst' found and renamed as follows:"
+msgstr ""
+
+#: grub4dosconfig:105
+msgid "Note: the boot record is not changed."
+msgstr ""
+
+#: grub4dosconfig:106
+msgid ""
+"The MBR of the 1st drive has not changed this time. You may need to "
+"configure the BIOS or the MBR to make chain to"
+msgstr ""
+
+#: grub4dosconfig:107
+msgid ""
+"The boot-flag of the partition %s is not set. You may need to set the boot-"
+"flag using Gparted."
+msgstr ""
+
+#: grub4dosconfig:108
+msgid ""
+"The MBR of the drive %s seems not bootable. You may need to install some "
+"bootloader there."
+msgstr ""
+
+#: grub4dosconfig:110
+msgid "Edit 'menu.lst'"
+msgstr ""
+
+#: grub4dosconfig:111
+msgid "Edit 'Advanced menu'"
+msgstr ""
+
+#: grub4dosconfig:112
+msgid ""
+"Grub not found. Grub(other than Grub4Dos) which supports ext4 is required if "
+"the 1st partition of the target drive is ext4 file system."
+msgstr ""
+
+#: grub4dosconfig:114
+msgid "Grub4dos Guide online"
+msgstr ""
+
+#: grub4dosconfig:115 grub4dosconfig:117 grub4dosconfig:669
+msgid "Options"
+msgstr ""
+
+#: grub4dosconfig:116
+msgid "You can edit the boot options add to all frugal installed Puppy."
+msgstr ""
+
+#: grub4dosconfig:118
+msgid "You can edit the boot options add to all full installed Linux."
+msgstr ""
+
+#: grub4dosconfig:119
+msgid "Old MBR is saved"
+msgstr ""
+
+#: grub4dosconfig:120
+msgid "To restore the MBR, type next command on console"
+msgstr ""
+
+#: grub4dosconfig:122
+msgid ""
+"Next puppy directories have same name on multiple partitions. It may confuse "
+"the bootup procces. Recommended to press 'Cancel' to quit this program, "
+"change the names of the directories, and then restart this program.\\nBut "
+"you can continue this program pressing 'OK'."
+msgstr ""
+
+#: grub4dosconfig:123
+msgid ""
+"This entry is always shown no matter Windows are installed or not. "
+"Recommended to keep the entry."
+msgstr ""
+
+#: grub4dosconfig:124
+msgid "The Grub4DosConfig seems improperly installed. Missing files"
+msgstr ""
+
+#: grub4dosconfig:125
+msgid "Some componets are lacking to perform this function"
+msgstr ""
+
+#: grub4dosconfig:126
+msgid "No supported filesystems found in"
+msgstr ""
+
+#: grub4dosconfig:127
+msgid "Sectors/Track is expected 63."
+msgstr ""
+
+#: grub4dosconfig:128
+msgid "But the drive"
+msgstr ""
+
+#: grub4dosconfig:129
+msgid "seems Sectors/Track"
+msgstr ""
+
+#: grub4dosconfig:130
+msgid "The Grub4DosConfig does not support this drive."
+msgstr ""
+
+#: grub4dosconfig:131
+msgid ""
+"Remove all the partitions on the drive (after backing up all the data) and "
+"rewrite the partition tabe with Gparted."
+msgstr ""
+
+#: grub4dosconfig:132
+msgid ""
+"Select the device you would like to boot from. Usually the first drive(MBR), "
+"but you can select floppy(fd0) if available, or USB removable devices. You "
+"may need to change the BIOS setting."
+msgstr ""
+
+#: grub4dosconfig:133
+msgid "Ignored for floppies"
+msgstr ""
+
+#: grub4dosconfig:134
+msgid "Or, for PBS install, it searches only the partiton and is recommended."
+msgstr ""
+
+#: grub4dosconfig:135
+msgid ""
+"Limit the search scope so that the installations on other drives are not "
+"listed up. Recommended only for removal devices."
+msgstr ""
+
+#: grub4dosconfig:136
+msgid ""
+"Only if you do not want to change your existing MBR. Your boot sequence "
+"should be ready to start up grubldr."
+msgstr ""
+
+#: grub4dosconfig:137
+msgid ""
+"Only if you want to keep the existing menu.lst and you can handle it "
+"manually."
+msgstr ""
+
+#: grub4dosconfig:138
+msgid "Legacy compatible 'menu.lst'"
+msgstr ""
+
+#: grub4dosconfig:139
+msgid ""
+"Only if you still use legacy grub. You also need to tick on 'Do not rewrite "
+"the existing boot record'. The 'menu.lst' is made with legacy grub "
+"compatible commands."
+msgstr ""
+
+#: grub4dosconfig:140
+msgid "A 'menu.lst' found at irregular place"
+msgstr ""
+
+#: grub4dosconfig:141
+msgid "Recommended is to make new one"
+msgstr ""
+
+#: grub4dosconfig:142
+msgid "but you can skip to make new one by checking the box on."
+msgstr ""
+
+#: grub4dosconfig:143
+msgid "No 'menu.lst' found."
+msgstr ""
+
+#: grub4dosconfig:144
+msgid "Not found"
+msgstr ""
+
+#: grub4dosconfig:145
+msgid "Show PBS"
+msgstr ""
+
+#: grub4dosconfig:146
+msgid "Hide PBS"
+msgstr ""
+
+#: grub4dosconfig:147
+msgid ""
+"Show all partitions if you want to install the bootloader on the partition "
+"boot sector(PBS)."
+msgstr ""
+
+#: grub4dosconfig:148
+msgid "Single page menu"
+msgstr ""
+
+#: grub4dosconfig:149
+msgid ""
+"Single page menu with advanced entries. Or, the advanced menu at next page"
+msgstr ""
+
+#: grub4dosconfig:150
+msgid "Device"
+msgstr ""
+
+#: grub4dosconfig:151
+msgid "Information"
+msgstr ""
+
+#: grub4dosconfig:458
+msgid "Proceed anyway"
+msgstr ""
+
+#: grub4dosconfig:654
+msgid "Refresh"
+msgstr ""
+
+#: grub4dosconfig:655
+msgid "Probe devices again."
+msgstr ""
+
+#: grub4dosconfig:802
+msgid "Boot flag not found on %s."
+msgstr ""
+
+#: grub4dosconfig:803
+msgid ""
+"Some BIOS does not boot from the drive which has no boot flag. Click "
+"'Cancel' here and set the boot flag by using GParted or something. But you "
+"can proceed installing grub4dos first."
+msgstr ""
+
+#: grub4dosconfig:1305
+msgid "Confirmation"
+msgstr ""
+
+#: grub4dosconfig:2001
+msgid "See log"
+msgstr ""

@@ -1,0 +1,39 @@
+#!/bin/bash
+#Pprocess
+#version=2.2
+#language=spanish
+#translator=native
+set -a
+
+LOC_OK="OK"
+LOC_CANCEL="Cancelar"
+LOC_ERROR="Error"
+LOC_SEARCHTEXT="Buscar texto"
+
+LOC100="Administrador de procesos"
+LOC101="Finalizar proceso (matar)"
+LOC102="Procesos"
+LOC103="Mensajes"
+LOC104="Prioridad de CPU"
+LOC105="Alta"
+LOC106="Normal"
+LOC107="Baja"
+LOC108="Filtrar"
+LOC109="Acción"
+LOC111="Enviar señal" #must be 2 words
+LOC112="Procesos activos"
+LOC113="Mensajes de kernel"
+LOC114="Servidor gráfico"
+LOC115="Arranque de kernel"
+LOC116="Arranque de Puppy"
+LOC118="Apagar"
+LOC119="Reiniciar sistema"
+LOC120="Doble-clic para ver mensajes"
+
+LOC131="Ninguna acción definida"
+
+
+#tooltips
+LOC200="Usar filtro para ver sólo procesos buscados.
+Mantener campo en blanco para ver todos los procesos."
+LOC201="Lo que debería pasarle al proceso, cuando le haga clic."

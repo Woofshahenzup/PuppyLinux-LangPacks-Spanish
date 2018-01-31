@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Boot Manager
+Icon=/usr/share/pixmaps/puppy/startup.svg
+Comment=BootManager configure bootup
+Exec=bootmanager
+Terminal=false
+Type=Application
+Categories=X-System
+GenericName=BootManager
+Name[es]=BootManager-Configuración de Arranque
+Name[es]=BootManager | configurar arranque

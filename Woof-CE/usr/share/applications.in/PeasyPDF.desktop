@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PeasyPDF convert/join/extract
+Icon=/usr/share/pixmaps/peasypdf.png
+Comment=Manipulate PDF documents
+Exec=peasypdf
+Terminal=false
+Type=Application
+Categories=X-DocumentUtility
+GenericName=PeasyPDF
+Name[es]=PeasyPDF convertir/construir/extraer

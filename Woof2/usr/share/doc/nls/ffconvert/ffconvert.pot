@@ -1,0 +1,610 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-31 19:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ffconvert:23
+msgid "Multimedia converter"
+msgstr ""
+
+#: ffconvert:55
+msgid "Wait a moment ..."
+msgstr ""
+
+#: ffconvert:68
+msgid "Launching %s"
+msgstr ""
+
+#: ffconvert:159
+msgid "Yes"
+msgstr ""
+
+#: ffconvert:160
+msgid "No"
+msgstr ""
+
+#: ffconvert:181
+msgid "An error occured"
+msgstr ""
+
+#: ffconvert:236
+msgid ""
+"Somewhat fault with the ffmpeg. Ensure the ffmpeg is properly installed."
+msgstr ""
+
+#: ffconvert:249
+msgid "Custom"
+msgstr ""
+
+#: ffconvert:250
+msgid "Copy"
+msgstr ""
+
+#: ffconvert:251
+msgid "None"
+msgstr ""
+
+#: ffconvert:252
+msgid "Same as source"
+msgstr ""
+
+#: ffconvert:253
+msgid "Not specify"
+msgstr ""
+
+#: ffconvert:254
+msgid "mono"
+msgstr ""
+
+#: ffconvert:255
+msgid "stereo"
+msgstr ""
+
+#: ffconvert:317
+msgid "Show all"
+msgstr ""
+
+#: ffconvert:319
+msgid "User defined"
+msgstr ""
+
+#: ffconvert:388
+msgid "Type or drag here the source media file."
+msgstr ""
+
+#: ffconvert:389
+msgid ""
+"Optionally, type or drag here the 2nd source media file for the audio track "
+"if you want."
+msgstr ""
+
+#: ffconvert:396
+msgid "Tick on here to rip a DVD-video"
+msgstr ""
+
+#: ffconvert:398
+msgid "DVD riping disabled beacause 'vobcopy' not installed."
+msgstr ""
+
+#: ffconvert:400
+msgid "Optical drives not found."
+msgstr ""
+
+#: ffconvert:404
+msgid "Recoding screen not supported."
+msgstr ""
+
+#: ffconvert:407
+msgid "Tick on here to record screen."
+msgstr ""
+
+#: ffconvert:409
+msgid "Record screen"
+msgstr ""
+
+#: ffconvert:416
+msgid "In"
+msgstr ""
+
+#: ffconvert:416
+msgid "Out"
+msgstr ""
+
+#: ffconvert:416 ffconvert:619 ffconvert:643
+msgid "Preset"
+msgstr ""
+
+#: ffconvert:416
+msgid "Detail"
+msgstr ""
+
+#: ffconvert:420 ffconvert:1288 ffconvert:1846
+msgid "Source"
+msgstr ""
+
+#: ffconvert:421
+msgid "Tick on here to convert audio/video files in your storage."
+msgstr ""
+
+#: ffconvert:421
+msgid "File"
+msgstr ""
+
+#: ffconvert:442
+msgid "Souce file"
+msgstr ""
+
+#: ffconvert:450 ffconvert:497
+msgid "Browse and select the source media file."
+msgstr ""
+
+#: ffconvert:456 ffconvert:503
+msgid "Clear the source file entry."
+msgstr ""
+
+#: ffconvert:465
+msgid ""
+"Tick on if you want to convert all files with same extention in the same "
+"directory."
+msgstr ""
+
+#: ffconvert:467
+msgid "All files in the same directory"
+msgstr ""
+
+#: ffconvert:476 ffconvert:512
+msgid "Property of the source media file."
+msgstr ""
+
+#: ffconvert:477 ffconvert:513
+msgid "Info."
+msgstr ""
+
+#: ffconvert:481 ffconvert:517
+msgid "Play back the source media file."
+msgstr ""
+
+#: ffconvert:482 ffconvert:518 ffconvert:2112
+msgid "Play"
+msgstr ""
+
+#: ffconvert:489
+msgid "Souce 2nd"
+msgstr ""
+
+#: ffconvert:525
+msgid "DVD"
+msgstr ""
+
+#: ffconvert:534
+msgid "Screen"
+msgstr ""
+
+#: ffconvert:556
+msgid "Which scope do you want to capture?"
+msgstr ""
+
+#: ffconvert:556
+msgid "Capture scope"
+msgstr ""
+
+#: ffconvert:557
+msgid "Capture one window you will choose after."
+msgstr ""
+
+#: ffconvert:557
+msgid "One window"
+msgstr ""
+
+#: ffconvert:558
+msgid "Capture whole the screen."
+msgstr ""
+
+#: ffconvert:558
+msgid "Full screen"
+msgstr ""
+
+#: ffconvert:560
+msgid "Trim"
+msgstr ""
+
+#: ffconvert:561
+msgid "Trim size of both top and bottom, in pixels."
+msgstr ""
+
+#: ffconvert:568
+msgid "Duration(min)"
+msgstr ""
+
+#: ffconvert:569
+msgid "Choose recording duration in minutes."
+msgstr ""
+
+#: ffconvert:577
+msgid "Tick on to make '%s' playlist."
+msgstr ""
+
+#: ffconvert:578
+msgid "Destination"
+msgstr ""
+
+#: ffconvert:580 ffconvert:1288 ffconvert:1295 ffconvert:1846
+msgid "Dest. dir."
+msgstr ""
+
+#: ffconvert:581 ffconvert:1296
+msgid "Type or select the destination directory here."
+msgstr ""
+
+#: ffconvert:585 ffconvert:1300
+msgid "Browse and select the destination directory."
+msgstr ""
+
+#: ffconvert:592
+msgid "Tick on to overwrite the destination files if they are exist."
+msgstr ""
+
+#: ffconvert:594
+msgid "Overwrite files"
+msgstr ""
+
+#: ffconvert:598
+msgid "Playlist"
+msgstr ""
+
+#: ffconvert:622
+msgid "Choose from the bellow and click 'Apply'."
+msgstr ""
+
+#: ffconvert:624
+msgid "Load preset options."
+msgstr ""
+
+#: ffconvert:626
+msgid "Apply"
+msgstr ""
+
+#: ffconvert:633
+msgid "Select preset group."
+msgstr ""
+
+#: ffconvert:635
+msgid "Group"
+msgstr ""
+
+#: ffconvert:641
+msgid "Select preset options."
+msgstr ""
+
+#: ffconvert:655 ffconvert:856
+msgid "Preset name"
+msgstr ""
+
+#: ffconvert:656
+msgid "Select at the preset tab and click 'Apply'."
+msgstr ""
+
+#: ffconvert:658
+msgid "Save preset options."
+msgstr ""
+
+#: ffconvert:660
+msgid "Save"
+msgstr ""
+
+#: ffconvert:667
+msgid "Revert all settings to the default."
+msgstr ""
+
+#: ffconvert:669
+msgid "Default"
+msgstr ""
+
+#: ffconvert:677
+msgid "Video"
+msgstr ""
+
+#: ffconvert:679 ffconvert:740
+msgid "Codec"
+msgstr ""
+
+#: ffconvert:687
+msgid "Used only with libx264"
+msgstr ""
+
+#: ffconvert:687
+msgid "X264 ffpreset"
+msgstr ""
+
+#: ffconvert:691
+msgid "Quality"
+msgstr ""
+
+#: ffconvert:698 ffconvert:748
+msgid "Bitrate"
+msgstr ""
+
+#: ffconvert:705
+msgid "Screen size"
+msgstr ""
+
+#: ffconvert:712
+msgid "Aspect"
+msgstr ""
+
+#: ffconvert:719
+msgid "Frame rate"
+msgstr ""
+
+#: ffconvert:726 ffconvert:769
+msgid "Adv. options"
+msgstr ""
+
+#: ffconvert:727
+msgid "Type additional options for video codec here."
+msgstr ""
+
+#: ffconvert:737
+msgid "Audio"
+msgstr ""
+
+#: ffconvert:755
+msgid "Sampling"
+msgstr ""
+
+#: ffconvert:762
+msgid "Channels"
+msgstr ""
+
+#: ffconvert:763
+msgid "Select the number of audio channel."
+msgstr ""
+
+#: ffconvert:770
+msgid "Type additional options for audio codec here."
+msgstr ""
+
+#: ffconvert:780
+msgid "File format"
+msgstr ""
+
+#: ffconvert:781
+msgid "Select the target file format."
+msgstr ""
+
+#: ffconvert:787
+msgid "Processing"
+msgstr ""
+
+#: ffconvert:788
+msgid "1-pass for quick, 2-pass for slow but high quality."
+msgstr ""
+
+#: ffconvert:801
+msgid "Convert"
+msgstr ""
+
+#: ffconvert:805
+msgid "Browse the local document on FFConvert."
+msgstr ""
+
+#: ffconvert:809
+#, sh-format
+msgid "Browse the $FFMPEG document on the internet."
+msgstr ""
+
+#: ffconvert:813 ffconvert:1908 ffconvert:2057
+msgid "Quit"
+msgstr ""
+
+#: ffconvert:841
+msgid "No preset found."
+msgstr ""
+
+#: ffconvert:852
+msgid "Save as the new preset?"
+msgstr ""
+
+#: ffconvert:853
+msgid "Same name already exists.\\nReplace the preset?"
+msgstr ""
+
+#: ffconvert:857
+msgid "Type new preset name to save."
+msgstr ""
+
+#: ffconvert:892
+msgid "No video nor audio stream in %s."
+msgstr ""
+
+#: ffconvert:1058
+msgid "The source screen size not available"
+msgstr ""
+
+#: ffconvert:1236
+msgid "Destination directory not specified. Using'%s'"
+msgstr ""
+
+#: ffconvert:1264
+msgid "%s shold be a mount point, but no drives mounted."
+msgstr ""
+
+#: ffconvert:1269
+msgid "Create new directory?"
+msgstr ""
+
+#: ffconvert:1287
+msgid ""
+"The free space of the destination seems small. But it depends on the "
+"bitrates of the source and the converted. You can change the destination "
+"directory, or go on without change."
+msgstr ""
+
+#: ffconvert:1288
+msgid "free"
+msgstr ""
+
+#: ffconvert:1330
+msgid "1. Move the crosshair cursor over a window and click there to select"
+msgstr ""
+
+#: ffconvert:1331
+msgid "2. Click the record button coming at the bottom-right corner."
+msgstr ""
+
+#: ffconvert:1348
+msgid "Click the record button at the bottom-right corner."
+msgstr ""
+
+#: ffconvert:1368
+msgid "Start recording"
+msgstr ""
+
+#: ffconvert:1373
+msgid "Stop recording"
+msgstr ""
+
+#: ffconvert:1494
+msgid "Insert a DVD-video and click 'OK'."
+msgstr ""
+
+#: ffconvert:1509
+msgid "Detecting DVD."
+msgstr ""
+
+#: ffconvert:1526
+msgid "The disk on '/dev/%s' seems not a DVD-video."
+msgstr ""
+
+#: ffconvert:1529
+msgid "Failed to mount '/dev/%s'."
+msgstr ""
+
+#: ffconvert:1560
+msgid "Rip a DVD"
+msgstr ""
+
+#: ffconvert:1630
+msgid "Your FFmpeg does not support the codec:"
+msgstr ""
+
+#: ffconvert:1658
+msgid "Your FFmpeg does not support the format:"
+msgstr ""
+
+#: ffconvert:1701
+msgid "%s is a directory."
+msgstr ""
+
+#: ffconvert:1702
+msgid "Convert all files in this directory?"
+msgstr ""
+
+#: ffconvert:1729 ffconvert:1737
+msgid "%s not found."
+msgstr ""
+
+#: ffconvert:1731
+msgid "Souce file not specified."
+msgstr ""
+
+#: ffconvert:1846
+msgid "Converting..."
+msgstr ""
+
+#: ffconvert:1849
+msgid "Open a terminal to see the log."
+msgstr ""
+
+#: ffconvert:1849
+msgid "Open log window"
+msgstr ""
+
+#: ffconvert:1884
+msgid "'%s' skipped."
+msgstr ""
+
+#: ffconvert:1900
+msgid "'%s' already exists. Skipped."
+msgstr ""
+
+#: ffconvert:1905
+msgid "%s already exists."
+msgstr ""
+
+#: ffconvert:1906
+msgid "Replace it?"
+msgstr ""
+
+#: ffconvert:1907
+msgid "Replace"
+msgstr ""
+
+#: ffconvert:1917
+msgid "Processing '%s'..."
+msgstr ""
+
+#: ffconvert:2023
+msgid "The job is canceled."
+msgstr ""
+
+#: ffconvert:2023
+msgid "Waiting the last process finishes..."
+msgstr ""
+
+#: ffconvert:2023
+msgid "Click 'Cancel' to quit now."
+msgstr ""
+
+#: ffconvert:2051
+msgid "An error occured."
+msgstr ""
+
+#: ffconvert:2052
+msgid "You can check the log at %s."
+msgstr ""
+
+#: ffconvert:2053
+msgid "Look up log"
+msgstr ""
+
+#: ffconvert:2055
+msgid "Skip this file and continue?"
+msgstr ""
+
+#: ffconvert:2056
+msgid "Skip"
+msgstr ""
+
+#: ffconvert:2084
+msgid "The Job is aborted."
+msgstr ""
+
+#: ffconvert:2087
+msgid "No files converted."
+msgstr ""
+
+#: ffconvert:2091
+msgid "Successfully converted into %s."
+msgstr ""
+
+#: ffconvert:2095
+msgid "%s files successfully converted in %s."
+msgstr ""
+
+#: ffconvert:2111
+msgid "Browse"
+msgstr ""

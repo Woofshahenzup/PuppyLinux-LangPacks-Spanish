@@ -1,0 +1,475 @@
+#!/bin/bash
+#Pmusic
+#version=2.6.3
+#language=es:spanish
+#translator=vicmz
+
+# |==================================|
+# | <b>text</b>            Bold text |
+# | \n                      New line |
+# |==================================|
+
+set -a
+
+LOC_ADVANCED="Avanzado"
+LOC_ALBUM="Álbum"
+LOC_ALBUMART="Portada de Álbum"
+LOC_APPLY="Aplicar"
+LOC_ARTIST="Artista"
+LOC_AUDIOEDITOR="Editor de audio"
+LOC_BALANCE="Balance"
+LOC_BROWSE="Examinar"
+LOC_CANCEL="Cancelar"
+LOC_COUNTRY="País"
+LOC_DOWN="abajo"
+LOC_EQUALIZER="Ecualizador"
+LOC_ERROR="Error"
+LOC_EXPORT="Exportar"
+LOC_FILENAME="Nombre de archivo"
+LOC_GENRE="Género"
+LOC_INFO="Infor."
+LOC_INSTALL="Instalación"
+LOC_LEFT="izquierda"
+LOC_LOADING="Cargando"
+LOC_LYRICS="Letra"
+LOC_MISC="Misc."
+LOC_MOREINFO="Más infor."
+LOC_NO="No"
+LOC_NR="Nr"
+LOC_OK="OK"
+LOC_PATH="Ruta"
+LOC_PLAY="Reproducir"
+LOC_PRESET="Perfil"
+LOC_QUIT="Salir"
+LOC_REFRESH="Actualizar"
+LOC_REMOVE="Quitar"
+LOC_RENAME="Renombrar"
+LOC_RIGHT="derecha"
+LOC_SAVE="Guardar"
+LOC_SEARCH="Buscar"
+LOC_SETUP="Ajustes"
+LOC_SIZE="Tamaño"
+LOC_STOP="Detener"
+LOC_STREAM="Flujo"
+LOC_TITLE="Título"
+LOC_TRACK="Pista"
+LOC_UP="arriba"
+LOC_VIEW="Ver"
+LOC_VOLUME="Volumen"
+LOC_WEBBROWSER="Navegador Web"
+LOC_WARNING="Cuidado"
+LOC_YEAR="Año"
+LOC_YES="Sí"
+
+
+#Menu
+LOC100="Archivo"
+ LOC101="Abrir - Fuentes de música"
+ LOC102="Guardar lista de reproducción"
+ LOC103="Preferencias"
+ LOC105="Reproducir CD-audio"
+ LOC108="Expulsar CD"
+ LOC109="Salir y guardar geometría"
+LOC110="Lista de reproducción"
+ LOC111="Nueva lista de reproducción"
+ LOC115="Grabar pistas"
+ LOC116="Etiquetar todas las pistas de la lista"
+ LOC118="Retroceder en historial de lista"
+ LOC119="Avanzar en historial de lista"
+ LOC132="Renombrar archivo fuente"
+ LOC133="Copiar archivo fuente"
+ LOC134="Borrar archivo fuente"
+ LOC136="Quitar de la lista (botón medio)"
+ LOC137="Renombrar listas"
+ LOC138="Mostrar ubicación"
+ LOC139="Editar flujo de audio (y mantener meta-info)"
+LOC140="Pista"
+ LOC141="Infor. de Pista"
+ LOC142="Marcar pista actual"
+ LOC151="Pausar"
+ LOC152="Detener"
+ LOC153="Pista siguiente"
+ LOC154="Pista anterior"
+ LOC155="Saltar al tiempo" #time
+LOC160="Ordenar"
+LOC170="Fuentes de música"
+LOC172="Vista General"
+LOC175="Lista"
+LOC180="Ver"
+ LOC181="Ahora sonando"
+LOC190="Ayuda"
+ LOC191="Acerca de"
+ LOC192="Preguntas frecuentes"
+ LOC195="Verificación de dependencias"
+
+#main window
+LOC202="Almacenando en búfer...Espere por favor"
+LOC203="No hay conexión"
+LOC204="Archivo corrupto"
+LOC205="Error de reproducción"
+LOC207="Formato desconocido"
+LOC208="Cargando meta-información"
+
+#right-click menu
+LOC210="Votar"
+
+#Add
+LOC220="Agregar"
+LOC221="Música en la Web"
+LOC222="Estaciones de radio"
+LOC223="Pistas"
+LOC224="Colecciones"
+LOC225="Recientes"
+LOC226="Votos"
+LOC227="Marcadores"
+LOC228="Mi Música"
+LOC229="Radio Hits"
+LOC230="Agregar todo"
+LOC232="Agregar aleatorio"
+LOC233="Ordenar"
+LOC236="por" #sort BY filename/artist....
+LOC237="Archivo/dirección"
+LOC238="Archivos"
+LOC240="Marcar contenido fuente"
+LOC246="Agregar nueva pista al final de la lista"
+LOC247="Agregar nueva pista justo debajo de la pista actual"
+
+#ID3
+LOC252="Borrar etiquetas"
+LOC253="Comentario"
+LOC254="En qué lista de archivos actuar"
+LOC255="¡No hay coincidencias! A notar que esta búsqueda SOLAMENTE incluye colecciones (listas de reproducción) que están indexadas."
+LOC256="Guardar etiquetas"
+LOC257="¿Realmente quiere borrar las etiquetas para TODOS los archivos de la lista?"
+LOC258="I N F O R M A C I Ó N
+Esto editará la meta-información de TODAS las pistas
+con soporte en la lista elegida. Las etiquetas intactas NO
+se quitarán. Esto significa que usted puede agregar una de
+las etiquetas a todos sus archivos sin quitar las otras.
+
+
+A V A N Z A D O
+Para etiquetado avanzado usted puede usar comandos
+en vez de texto estático en los campos. Esto es muy
+útil para títulos de pista que casi nunca son
+iguales a otro.
+Algunos ejemplos:
+
+Nombre de archv. es 'artista - título.mp3'.
+Comando para tomar título será:
+<span fgcolor='"'darkgreen'"'><i>exe:echo 'FILENAME' | awk -F ' - ' '{print \\\$2}'</i></span>
+
+Álbum podría ser el nombre del directorio:
+<span fgcolor='"'darkgreen'"'><i>exe:echo 'DIRNAME'</i></span>
+
+Un título de pista en un libro electrónico se podría llamar así:
+<span fgcolor='"'darkgreen'"'><i>exe:echo 'Mybook chapter '"'\$(printf "%02d" COUNT)'"</i></span>
+
+Para borrar una etiqueta elegida, usar el comando incluido:
+<span fgcolor='"'darkgreen'"'><i>exe:CLEAR</i></span>
+
+Y luego las reglas:
+- Una línea debe comenzar con exe:
+- Las variables incluidas son FILENAME, DIRNAME y COUNT
+- El comando incluido es CLEAR
+- Nunca usar \"
+- Poner una \ en frente de $" #Lines starting with '<span' - keep as is
+
+#Preferences
+LOC260="General"
+LOC261="Lista de Reproducción"
+LOC262="Tema"
+LOC263="Progamas externos"
+LOC264="Dar a Pmusic prioridad de CPU más alta (para impedir tartamudeo)"
+LOC265="Convertir _guiones bajos_ a espacios en blanco"
+LOC266="Convertir %20 a espacio en blanco"
+LOC267="Frontend (perfil de ventana)"
+LOC268="Establecer nombre de listas múltiples"
+LOC270="Idioma"
+LOC271="Espacio entre pistas (en segundos)"
+LOC272="Canal de altavoz"
+LOC273="Reproducción"
+LOC275="Mostrar descripciones emergentes"
+LOC279="Mostrar ícono en la barra"
+LOC800="Dispositivo CD"
+LOC801="Tarjeta de sonido"
+LOC802="Auto es la opción recomendada, pero hay 2
+razones para ajustar su tarjeta de sonido:
+<b>1)</b> Si hay instalada más de 1 tarjeta usted tal vez
+quiera definir cuál usar.
+<b>2)</b> Si usted lucha contra el sonido de mala calidad,
+definir su tarjeta puede mejorar la reproducción.
+
+¡NOTA!
+Al ajustar la tarjeta de sonido usted también liga el controlador
+ALSA a Pmusic. Esto significa que otros programas no harán sonar
+audio mientras Pmusic esté activo. Por otro lado, <b>Pmusic no
+sonará si otro programa está usando el controlador de sonido.</b>"
+LOC807="Editar manualmente"
+LOC808="Ruta predefinida del navegador de archivos"
+LOC810="Buscar mientras se escribe (consume muchos recursos)"
+LOC811="Fuentes de búsqueda predefinidas"
+LOC812="Archivos de ruta(s) definida(s) - Más lento."
+
+LOC830="Máx. de NUEVOS podcasts para descargar de una url"
+LOC831="Directorio para guardar Podcast"
+LOC840="Meta-infor."
+LOC841="Usar meta-etiquetas (si están presentes) al agregar la pista en la lista"
+LOC842="Preferir meta-información (sobre meta-etiquetas) de lista m3u importada"
+LOC843="Actualizar información, letra, portada de álbum para la pista actual"
+LOC844="Auto-cargar meta-información en Ventana-fuente (si no está ya indexada)"
+LOC845="Sí cargar meta-etiquetas del primer número de pistas"
+LOC846="Mostrar meta-infor. (canción actual) del flujo de Radio"
+LOC849="Opciones que consumen muchos recursos en sistemas de poca potencia"
+LOC850="Almacenamiento local"
+LOC851="Guardar letras/portadas de álbum en disco duro para usar después. Esto es más rápido y más confiable (no depende de la conexión a Internet o el servidor). Pmusic preferirá letras/gráficos almacenados localmente sobre la recepción desde Internet. El gráfico de álbum sólo se acepta para almacenamiento local si se encuentra una imagen grande en amazon.com, de lo contrario usted puede guardar manualmente desde la ventana de portada de álbum.
+Por favor defina dónde almacenar las letras descargadas."
+
+#Save
+LOC281="Archivo"
+LOC282="Incluir Ruta"
+LOC283="Sin rutas, la definición es relativa, y la lista de reproducción funcionará hasta si usted mueve su música a otra ubicación. La desventaja es que la lista debe estar en el mismo directorio que las canciones."
+LOC284="Marcar lista de reproducción"
+LOC285="Hacer que la lista guardada esté disponible al elegir 'Marcadores' en Fuentes de música."
+
+#Export
+LOC287="Dividir flujo de radio en pistas. (Véase también Fuente de música 'Radio Hits')"
+LOC288="El nombre de archivo se basará en la meta infor."
+LOC289="Grabar pistas"
+LOC290="Exportar pistas"
+LOC291="Directorio objetivo"
+LOC292="Agregar Numeración para mantener el orden (no para radio)"
+LOC293="Formato de audio"
+LOC294="Bitrate (bits/sec)"
+LOC295="Samplerate (hz)"
+LOC296="Canales"
+LOC297="Convertir"
+LOC298="Especificar formato de salida"
+LOC299="Destino"
+LOC2910="Marcar directorio objetivo"
+LOC2911="La conversión es requerida para flujos de Internet, como pistas de jamendo.com o similares."
+LOC2912="¡NOTA! No se pueden convertir los flujos de radio. Se grabarán en su formato original. La conversión se tiene que hacer en una segunda instancia."
+LOC2913="Copiar / Convertir / Extraer / Grabar"
+
+
+#update index
+LOC300="Indexar su Música"
+LOC301="Mi Música es un índice (una captura) de música en su sistema que activa el súper rápido motor de búsqueda de Pmusic"
+LOC302="Defina dónde buscar su música."
+LOC303="Filtros avanzados (mucho más lento)"
+LOC304="Usar Meta-etiquetas al indexar"
+LOC306="No indexar directorios"
+LOC307="Actualizar sólo novedades desde la última indexación"
+LOC308="Comenzar a indexar"
+LOC309="Directorio de índice de música"
+LOC310="Pmusic generará colecciones de música (álbumes) por meta-etiquetas si se selecciona. Además, Pmusic puede generar colecciones basadas en la estructura del directorio."
+LOC311="Indexando canciones..."
+LOC312="Indexando álbumes..."
+LOC313="Indexando directorios..."
+LOC314="Actualizar índice"
+LOC315="Estadísticas"
+LOC316="Última indexación" #date
+LOC317="Filtros"
+LOC318="|    Falta el índice.\n|    Por favor ir a 'Ajustes' (menú 'Fuentes de música'), \n|     para indexar toda su música.\n|    Entonces encontrará pistas y colecciones aquí." #keep \n| for newline
+LOC319="Incluir pistas de Youtube"
+
+#tooltips
+LOC400="RETROCEDER en historial de lista"
+LOC401="AVANZAR en historial de lista"
+LOC405="Cortar sonido"
+LOC406="- Búsqueda libre: 'nig tnt' busca 'TNT - Desperate night'.
+- Agregar archivos y URLs a la lista.
+- Buscar rutas."
+LOC407="Definir cuáles fuentes buscar"
+LOC409="Mostrar ventana de Fuentes de Música"
+LOC411="Traer canción actual"
+LOC412="Buscar la letra en la web"
+LOC413="Modo de reproducción: Cuál pista debe estar a continuación
+- Directo: Seguir lista de reproducción
+- Repetir: Comenzar de nuevo cuando se toque la última pista
+- Aleatorio: Reproducir una pista al azar"
+LOC414="Agregar pista:
+- después de la pista actual
+- como última pista"
+
+#presets
+LOC440="Ala izquierda"
+LOC441="Ala derecha"
+
+#Bookmarks
+LOC460="Ruta / URL"
+LOC461="Nombre"
+LOC462="Mover marcadores arrastrándolos hacia arriba/abajo
+Hacer clic derecho para más opciones"
+LOC465="El 'nombre' es lo que aparece cuando usted agrega música"
+LOC466="La 'ruta / URL' es la dirección actual al objetivo marcado"
+LOC468="Usted puede incluir el sello de tiempo de la pista actual. Esto significa que al hacer clic en este marcador después iniciará la pista desde la posición de tiempo actual."
+LOC469="Mantener sello de tiempo"
+LOC471="Agregar ítem a la lista"
+LOC472="Ordenar lista de marcadores en forma ascendente"
+LOC473="Ordenar lista de marcadores en forma descendente"
+LOC474="Limpiar contenido de los campos"
+LOC475="Esta es una pista temporal, y usted no puede marcarla"
+
+#radio
+LOC490="Esta es una descarga e instalación con un solo clic del índice de estaciones de radio.
+
+El archivo del índice ocupará 1Mb+ cuando se instale, y le dará acceso a más de 11000 estaciones de radio."
+LOC491="The installable index might be too old for you. Don't worry, it is possible to build a new index, based on the very recent info at radiosure.com. - Depending on your system, this will take some time.
+
+The radio-database is static, which means user can't edit it manually. To include new URLs, you should add a bookmark or contact www.radiosure.com to include wanted stream-adress. Be aware that Pmusic only supports the stream-formats mp3 and ogg."
+LOC492="Connecting"
+LOC493="|    Radio Stations database is not built.\n|    Please 'Setup' (Music-Sources menu), and \n|    activate thousands of radio stations.\n|    Afterwards you will find all stations here." #keep \n| for newline
+LOC495="Downloading radio index. Please wait..."
+
+#Podcast
+LOC600="Podcast"
+LOC601="Nombre"
+LOC602="URL"
+LOC603="Keep podcast in X days before destruction"
+LOC604="Días"
+LOC605="Historial"
+LOC606="Check for new podcasts NOW"
+LOC607="Schedule Podcast checking"
+LOC608="Find a podcast on the web"
+LOC609="Add new Podcast to list"
+LOC610="Remove selected Podcast from list"
+LOC611="Manually edit podcast list in text editor"
+LOC612="Downloading"
+LOC613="Show textfile with info about removed podcasts"
+LOC614="Building schedule template ... Please wait"
+LOC615="Delete podcast"
+LOC616="Do you want to delete downloaded podcasts in addition to the podcast information?"
+LOC617="No podcasts - run manager in File-menu."
+LOC618="Define podcast"
+LOC619="Add to podcast list"
+LOC620="Download podcasts in list"
+
+#WebMusic
+LOC630="|WebMusic browsing requires an index.\n|Please 'Setup' (Music-Sources menu)." #keep \n| for newline
+LOC631="The WebMusic index is a file containing the information of all music at jamendo.com. Pmusic will play WebMusic tracks without this index file, but it will benefit of it when it comes to browsing and advanced searching.
+
+The index file will be 56Mb+ when installed, and contains info about 390000+ music tracks."
+LOC632="The installable index may not hold the latest tracks at jamendo.com. You can build the index file yourself of the very recent info.
+
+Depending on your system this process may take some hours."
+LOC633="Date of index"
+LOC634="WebMusic Tracks"
+LOC635="Reading index. A moment..."
+LOC636="|    Jamendo.com index is missing,\n|    so search will be very limited\n|    - Much SLOWER\n|    - No multitag search\n|    - Max results is 500 pr search.\n|    - Please 'Setup' (Music-Sources menu)." #keep \n| for newline
+LOC637="Build index"
+
+
+#track info
+LOC648="Actualizar toda la infor. de pista basándose en la última información guardada"
+LOC649="Después de guardar la nueva meta-infor., ud. necesita hacer clic en el botón 'Actualizar' para actualizar la información de las otras pestañas: Letra, gráfico de álbum..."
+LOC650="Buscar meta-información alternativa basándose en ARTISTA y TÍTULO. La línea de búsqueda no requiere información completa de Artista/Título, pero usted DEBE usar palabras completas."
+LOC651="Meta-infor. alternativa"
+LOC652="Buscando más infor..."
+LOC654="Discografía"
+LOC655="<b>Páginas Web</b> - hacer doble clic para navegar"
+LOC656="Tipo" #type of webpage (homepage, discography...)
+LOC657="Buscar pista en colecciones indexadas"
+LOC659="Por favor agregue Artista y Título, y luego elija Guardar. Pmusic tratará de traer el resto (o buscar meta-infor. alternativa)."
+LOC660="Información alternativa de etiquetas"
+LOC661="Si no se muestra información correcta de etiquetas en la lista, puede ser que no esté agregada a la base de datos de musicbrainz.org. Pero lo más probable es que la síntaxis difiera de la base de datos. El truco es cortar la información de Artista/Título si contiene varias palabras (manteniendo completas las palabras que quedan). Esto dará una búsqueda más amplia, y usted puede sincronizar las etiquetas con la base de datos de musicbrainz."
+LOC662="Guardar infor. nueva y cerrar ventana"
+LOC663="Tratando de traer infor. de internet\nEspere por favor..."
+LOC664="Leyendo infor. de flujo\nEspere por favor..."
+LOC666="_______________
+To search internet for alternative tags, you do NOT need to write the whole name of Artist or Title. But, what you write must be complete words.
+_______________
+If you want to tag several files in one click, check out the global tagging tool in the Playlist/Music-sources menu." #help text
+LOC667="Nada encontrado"
+LOC668="Extensión"
+LOC669="No se puede conectar a internet."
+LOC670="Gráfico de álbum"
+LOC671="Flujo"
+LOC672="Meta-información faltante"
+LOC673="This window is meant to update info for the playing track, but fails... '<i>$LOC843</i>' is turned OFF. See preferences - Meta-info." #leave '<i>$LOC843</i>' as is
+LOC674="Be aware that this info is static bound to selected track. To get the trackinfo window to refresh for each playing song, please choose 'Track info' from the Track menu."
+LOC680="Note that lyrics-search uses the Meta-info
+for Artist and Title as search-string.
+
+In addition to the local storage (if set), 
+Pmusic will search for lyrics in"
+
+#CD-audio
+#preset
+LOC700="Rip CD"
+LOC701="Copy and convert tracks in list"
+LOC702="Copy CD"
+LOC703="Burn a new disc"
+LOC704="Read CD"
+LOC705="Refresh disc info"
+#---
+LOC708="Probing disc, please wait..."
+LOC709="No tracks detected"
+#Rip - Export window
+LOC720="Name"
+LOC721="Define name of new files"
+LOC722="Track-number"
+LOC723="Add meta-information to new files"
+LOC724="Works for" #Works for .mp3 .ogg ... 
+LOC725="Build m3u playlist of exported tracks (not radio)"
+LOC730="Reading CD"
+
+#radio-hits
+LOC751="Download to"
+LOC752="Save preset"
+LOC753="Start grabbing tracks"
+LOC754="Fetch playing stream"
+LOC760="Download directory is missing. Do you want to create it?"
+LOC761="    RadioHits is deactivated because\n|    of missing dependency: Streamripper"
+LOC762="CleanUp and Exit"
+LOC763="Delete incomplete/double tracks"
+LOC764="Delete tracks below 1Mb (adverts?)"
+LOC770="RadioHits Grabber is a tool to split up radio-streams to music tracks - based on meta-information. This means you will get one mp3/ogg file, with correct naming, for each of the songs the radio station plays."
+LOC771="
+* Grab a top-40 station over-night once a week, and you will always have the latest hits available. Or choose a radio station playing your preferred genre and let it grab a week or so. - You'll then have the most popular songs on your harddrive.
+* Be aware that this will require a lot of free space on your harddisk.
+* Not all radio-stations provide useful meta-info. You might need to test some of your favorite stations to build a local hit-db without too much manual work. The attached presets should be fine. Both 1.FM and 181.fm (USA) provides a variety of good-quality-channels for many genres.
+* If a track starts badly or contains a piece of commercials, you can just delete the file and wait for next play. Or, you can edit the track manually in programs like MhWaveEdit or Audacity... The 'fader' effect is very useful to fade in/out the song."
+ 
+#Others
+LOC503="ya existe"
+LOC504="¿Quiere sobrescribir el archivo existente?"
+LOC505="no está instalado instalado"
+LOC506="Importando lista"
+LOC507="no encontrado"
+LOC508="Saltar en canción al tiempo"
+LOC509="La selección no es un directorio"
+LOC510="Hacer una lista con demasiadas canciones podría afectar su sistema críticamente"
+LOC511="Debería agregarse" #this line is connected with the next line
+LOC512="todas las canciones"
+LOC513="Master volum most often is a mono channel, and does not support different level for left and right speaker. You must specify correct channel for your system to get mixer volume to work as a balance controller."
+LOC514="Adding random song(s) from shown add-list.
+
+<b>How many songs should be added?</b>"
+LOC515="Generando lista"
+LOC516="<b>Agregar todas las canciones de este directorio.</b>
+
+Adding recursively will also include songs in all sub-directories."
+LOC517="Agregar en forma recursiva"
+LOC519="Fuente no detectada"
+LOC521="No hay CD-audio válido insertado"
+LOC522="No hay disco insertado"
+LOC524="No se puede saltar en un flujo."
+LOC525='Filename is empty!
+Be aware that use of some special chars (like \"|) in filename clears value.'
+LOC526="Pmusic is not able to Delete the source file. Do you want to remove the file from the Music Index?"
+LOC527="No FAQ available on local system. Downloading from internet...Please wait..."
+
+#first run info
+LOC900="Quiero música"
+LOC901="In addition to be an audioplayer and music manager, Pmusic also is a tool to build up your own local music collection. This includes audio, lyrics and album art.
+
+In the Music-Source menu, you'll find different ways to access music. One of the sources is Radio-Hits that records a radio station and splits the music tracks into different files with correct naming. See Radio-Hits setup for more info.
+
+When it comes to lyrics and album art, these are downloaded while playing a track. You can store them to a given directory. This is set in the preferences"
+LOC902="Tengo poca potencia"
+LOC903="If Pmusic runs slowly on your system, you might want to try the LowPowered frontend (View menu). It is a cut down frontend, but you still have most of the features available. The 2 major lacks will be the progress slider, and that Pmusic won't download trackinfo while playing. You can still load a complete set of track info (including lyrics and album art) for the selected song.
+
+Please also check out Precerences - Meta-info, since there are some resource hungry options you might want to turn off.
+
+Pmusic are now running the Manager frontend which is the medium choice when it comes to recource hunger and gui complexity. The Wings frontend are meant for the super-enthusiastic music-lovers."

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pdisk partition manager
+Icon=/usr/share/pixmaps/puppy/harddisk.svg
+Comment=Pdisk partition manager
+Exec=Pdisk
+Terminal=false
+Type=Application
+Categories=X-System-storage
+GenericName=Pdisk partition manager
+NoDisplay=true
+Name[es]=Pdisk-Administrador de Particiones
+Name[es]=Pdisk | administrador de particiones

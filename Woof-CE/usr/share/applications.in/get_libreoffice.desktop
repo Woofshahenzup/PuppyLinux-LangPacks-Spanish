@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Get LibreOffice download and install LibreOffice
+Icon=/usr/share/pixmaps/libreoffice-main.png
+Comment=Get LibreOffice download and install LibreOffice
+Comment[es]=Obtener LibreOffice descargar e instalar LibreOffice
+Exec=get_libreoffice
+Terminal=false
+Type=Application
+Categories=X-Document
+GenericName=Get LibreOffice download and install LibreOffice
+GenericName[es]=Obtener LibreOffice descargar e instalar LibreOffice
+Name[es]=Get Libreoffice descargar e instalar LibreOffice

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Slickpet Install Popular Programs
+Name[es]=Slickpet | instalar programas populares
+Icon=pet16.xpm
+Comment=Slickpet Install Popular Programs
+Exec=quickpet
+Terminal=false
+Type=Application
+Categories=PackageManager
+GenericName=Slickpet Install Popular Programs

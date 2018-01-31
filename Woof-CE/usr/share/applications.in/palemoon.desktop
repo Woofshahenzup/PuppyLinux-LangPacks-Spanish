@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[es]=Palemoon navegador web
+Name=Palemoon
+Icon=/usr/share/icons/mozicon128.png
+Comment[es]=Palemoon navegador web
+Comment=Palemoon web browser
+Exec=palemoon
+Terminal=false
+Type=Application
+Categories=X-Internet-browser
+GenericName=Palemoon web browser

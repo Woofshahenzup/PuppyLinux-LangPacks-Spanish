@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name[es]=Preferencias para Adobe Flash
+Name=Adobe Flash Preferences
+Comment=Preferences for Adobe Flash Player
+Exec=flash-player-properties
+Icon=/usr/share/pixmaps/flash-player-properties.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility;

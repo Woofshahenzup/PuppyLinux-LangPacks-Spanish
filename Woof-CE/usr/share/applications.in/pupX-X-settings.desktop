@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=pupX set properties of X
+Icon=mini-Desktop-settings.xpm
+Comment=pupX X settings
+Exec=pupx
+Terminal=false
+Type=Application
+Categories=X-Desktop-settings
+GenericName=pupX
+Name[es]=Pupx la configuracion de X
+Name[es]=PupX | ajustar propiedades de X

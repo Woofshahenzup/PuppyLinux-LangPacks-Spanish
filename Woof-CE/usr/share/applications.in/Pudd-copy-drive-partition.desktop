@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pudd copy drive/partition
+Icon=/usr/share/pixmaps/puppy/copy_disk.svg
+Comment=Pudd copy drive/partition
+Exec=Pudd
+Terminal=false
+Type=Application
+Categories=Archiving
+GenericName=Pudd copy drive/partition
+Name[es]=Pudd-Copia Unidad/Partición
+Name[es]=Pudd | copiar unidad/partición

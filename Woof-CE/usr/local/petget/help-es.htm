@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+<title>PPM Help</title>
+</head><body><br>
+<table style="text-align: left; width: 700px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+<h1>Administrador de Paquetes de Puppy (PPM)<br>
+</h1>
+Un "paquete" es la terminolog&iacute;a Linux para una aplicaci&oacute;n. &Eacute;stas se mantienen en repositorios
+online, y usted puede descargar e instalar cualquier paquete.<br>
+
+
+      
+<h2>C&oacute;mo instalar un paquete<br>
+</h2>
+
+Usted hace clic en un radio-bot&oacute;n de arriba para elegir el repositorio
+deseado, normalmente el que est&aacute; m&aacute;s a la izquierda es el m&aacute;s apropiado
+para su versi&oacute;n actual de Puppy.<br>
+
+
+      <br>
+
+Los radio-botones alineados verticalmente a la izquierda le permiten
+filtrar la pantalla a una categor&iacute;a espec&iacute;fica (estas notas son para la
+interfaz 'Cl&aacute;sica' o 'Classic', la interfaz 'Ziggy' tiene un esquema un
+poco diferente).<br>
+
+
+      <br>
+
+Note las casillas etiquetadas EXE, DEV, DOC y NLS. Muchos paquetes PET
+de Puppy est&aacute;n divididos en paquetes m&aacute;s peque&ntilde;os, como sigue:<br>
+
+
+      <br>
+
+
+EXE: Este es la aplicaci&oacute;n real, ciertamente usted quiere este.<br>
+
+
+DEV: Este contiene archivos de desarrollo, s&oacute;lo de inter&eacute;s para los que compilan c&oacute;digo fuente.<br>
+
+
+DOC: Este contiene los archivos de documentaci&oacute;n del paquete.<br>
+
+
+NLS: Este contiene los archivos internacionales de idioma del paquete.<br>
+
+
+      <br>
+
+N&oacute;tese que todos los paquetes (si usted s&oacute;lo instala el paquete
+principal "EXE") tienen soporte para ingl&eacute;s. El paquete NLS agrega
+soporte para otros idiomas, pero esto var&iacute;a considerablemente de
+paquete a paquete. Algunos paquetes no tienen soporte para lenguas
+distintas del ingl&eacute;s.<br>
+
+
+      <br>
+
+
+N&oacute;tese que los paquetes PET siguen una norma de nominaci&oacute;n, as&iacute;:<br>
+
+
+      <br>
+
+      
+<div style="margin-left: 40px;">
+
+abiword-1.2.3.pet (paquete "EXE")<br>
+
+
+abiword_DEV-1.2.3.pet<br>
+
+
+abiword_DOC-1.2.3.pet<br>
+
+
+abiword_NLS-1.2.3.pet<br>
+      </div>
+
+
+
+      <br>
+
+A notar tambi&eacute;n que no todos los autores de paquetes PET siguen la
+pr&aacute;ctica de dividir paquetes PET en estos componentes separados. En
+algunos casos puede haber, por ejemplo, 'abiword-1.2.3.pet' el cual
+tiene todo en su interior. La raz&oacute;n de que normalmente se haga la
+divisi&oacute;n es para reducir el tama&ntilde;o del paquete principal EXE.<br>
+
+<br>
+Desde fines de mayo de 2012, el PPM est&aacute; mejorado con soporte para
+filtrar EXE,DEV,DOC,NLS de paquetes DEB de Debian y Ubuntu y de
+paquetes RPM de Mageia. Por ejemplo,
+'abiword-doc_1.2.3-3build1_all.deb' se reconoce como un paquete de
+documentaci&oacute;n.<br>
+
+
+      <br>
+Al
+hacer clic en uno de los paquetes mostrados en la ventana grande, se
+abre otra ventana preguntando si usted realmente quiere instalar el
+paquete, y tambi&eacute;n ofrece m&aacute;s informaci&oacute;n sobre el paquete, para que
+usted pueda saber m&aacute;s sobre &eacute;l antes de decidir si instalarlo.&nbsp;<br>
+
+
+      
+<h2>C&oacute;mo desinstalar un paquete<br>
+</h2>
+Cuando se instala un paquete, aparece abajo a la derecha en la ventana.<br>
+
+
+Para desinstalar un paquete, simplemente h&aacute;gale clic. 
+Habr&aacute; otra ventana pidi&eacute;ndole que usted confirme la 
+eliminaci&oacute;n.<br>
+
+
+      
+<h2>Repositorios de paquetes</h2>
+Hay varios repositorios PET. PET 
+es el formato de Puppy para paquetes, una sigla que 
+humor&iacute;sticamente decimos que significa <span style="font-style: italic;">Puppy Extra Treats, </span>o
+sea "Trucos Adicionales de Puppy" (recuerde que Puppy significa 
+"cachorro" o "perrito" y en ingl&eacute;s "pet" significa mascota). Los 
+que se
+ofrecen depender&aacute;n de cu&aacute;l
+Puppy est&aacute; usted usando, pero normalmente habr&aacute; disponible
+ por lo menos
+estos:<br>
+
+
+      <br>
+
+      
+<div style="margin-left: 40px;">
+puppy-2: La muy antigua serie 2.x de Puppy<br>
+
+puppy-3: Serie 3.x de Puppy<br>
+
+puppy-4: Serie 4.x de Puppy<br>
+
+puppy-5: Serie 5.x de Puppy<br>
+puppy-noarch: &Eacute;stos no tienen ning&uacute;n ejecutable compilado y funcionan en cualquier Puppy (y cualquier CPU)<br>
+puppy-common: &Eacute;stos tienen ejecutables compilados y se hicieron para funcionar en cualquier Puppy<br>
+      </div>
+
+
+      <br>
+Una
+nota sobre esos &uacute;ltimos dos: los paquetes de "noarch" no tienen
+ejecutables compilados, as&iacute; que funcionar&aacute;n sin importar la CPU (x86,
+ARM, cualquiera). Los de "common" tienen ejecutables compilados, y son
+una colecci&oacute;n de paquetes utilizados en la mayor&iacute;a de las compilaciones
+de Puppy.<br>
+
+<br>
+Para su Puppy, usted puede tener tambi&eacute;n otros, como
+'puppy-quirky', 'puppy-wary5', o 'puppy-lucid'. Uno de &eacute;stos ser&aacute; una
+colecci&oacute;n de paquetes creados espec&iacute;ficamente para su Puppy en
+particular. Por ejemplo, Precise Puppy se construy&oacute; con paquetes
+binarios de Ubuntu Precise Pangolin, y&nbsp;el repo 'puppy-precise'
+tiene paquetes PET creados expl&iacute;citamente para este Puppy.<br>
+
+
+      <br>
+
+En general, use los que parezcan m&aacute;s apropiados para su versi&oacute;n de
+Puppy. Los m&aacute;s antiguos tienen paquetes que pueden o no funcionar en su
+Puppy, cuanto m&aacute;s antiguo sea el repositorio, es m&aacute;s probable que este
+pueda ser el caso. <br>
+
+
+      <br>
+Casi
+siempre mantenemos los repositorios antiguos disponibles, ya que a
+veces hay alg&uacute;n paquete antiguo que realmente se quiere usar. Pero como
+principio general, busque en los repositorios m&aacute;s recientes primero.<br>
+
+
+      <br>
+
+Su Puppy puede estar construido con paquetes de las otras
+distribuciones Linux importantes, tales como Debian, Ubuntu o
+Slackware. En ese caso,
+PPM ofrecer&aacute; esos repositorios. Ser&aacute;n los m&aacute;s compatibles y los que
+deber&iacute;a revisar primero. Por ejemplo, Precise Puppy, hecho de Ubuntu
+Precise Pangolin, tendr&aacute; los repositorios 'ubuntu-precise-main',
+'ubuntu-precise-universe' y 'ubuntu-precise-multiverse'.<br>
+
+      <br>
+
+Por supuesto, los paquetes de otras distribuciones no van a ser paquetes
+ PET. Los PETs tienen ".pet" al final del nombre de archivo 
+(extensi&oacute;n de archivo).<br>
+
+Debian y Ubuntu tienen paquetes DEB, con ".deb" al final del nombre de archivo.<br>
+
+Los paquetes de Slackware tienen la extensi&oacute;n de archivo ".tgz" o ".txz".<br>
+
+Mageia tiene paquetes RPM, con la extensi&oacute;n de archivo ".rpm".<br>
+
+Cualquiera sea el tipo de paquete, PPM es capaz de instalarlo.<br>
+
+      
+<h2>
+C&oacute;mo buscar<br>
+</h2>
+
+
+El campo "Buscar:" le permite buscar cualquier paquete.<br>
+      <br>
+Puede escribir un nombre parcial, pero s&oacute;lo se encontrar&aacute; 
+una coincidencia desde la izquierda. Por ejemplo, si usted hace una 
+b&uacute;squeda de "pan" puede encontrar esto:<br>
+      <br>
+      <div style="margin-left: 40px;">pango-1.28.1-w5 Library for layout and rendering of internationalized text<br>
+pango_DOC-1.28.1-w5 Library for layout and rendering of internationalized text<br>
+pangomm-2.26.2-w5 oo wrapper for pango library<br>
+pangomm_DOC-2.26.2-w5 oo wrapper for pango library<br>
+panoramixproto-1.1-w5 Panoramix extension headers<br>
+      </div>
+      <br>
+Pero hacer una b&uacute;squeda sobre "mm" no arroja nada, ya que no hay nombres de paquetes que comiencen con "mm".<br>
+      <br>
+Sin embargo, el campo Buscar aceptar&aacute;&nbsp; '*' wildcards, what is referred to as
+"glob wildcards". So, type in "*mm" will find all packages with "mm" in
+their names.<br>
+      <br>
+You can even have multiple wildcards, for example "p*mix*to", which will find the 'panoramixproto' package.<br>
+      <br>
+The search is case-insensitive, so a search for "PAN" will give the same results as shown above.<br>
+      <br>
+As from May 2012, PPM also supports searching for multiple keywords. Also, 
+the Description field is searched as well as the package name. For 
+example, it you type into the search-box, "abiword plugins", it 
+will find packages with these two words, either in the package name or 
+the description.<br>
+<br>
+Also from May 2012, you can choose to search just the current repository
+ or all repositories. Previously, it was restricted to current repo 
+only.<br>
+
+      <br>
+One thing to note about the search is that it searches the entire
+repository (or repositories), and ignores the vertical Category radiobuttons on the left
+side.<br>
+      <h2>Installing without the PPM GUI</h2>
+You can actually download any package, from anywhere, and install it.
+All that you have to do is click on the package in the file-manager
+window, and the package-installer component of PPM will run and install
+the package. This works for many types of packages, including PETs,
+Ubuntu/Debian DEBs, Slackware, and Arch packages.<br>
+      <br>
+Note however, if you install an individual package in this way, without
+going through the PPM GUI interface, any dependencies are not
+installed, and you will have to take care of that yourself.<br>
+      <br>
+One good thing, a package installed in this way will show up in the PPM
+GUI installed-packages-window and it can thus be uninstalled.<br>
+<h2>How to update Puppy to next version</h2>
+A little while ago, someone criticised PPM, stating that it did not 
+allow a complete upgrade of Puppy to the next version. The package 
+managers in some distributions allow you to install all packages 
+required to completely upgrade to the latest version of the distro.<br>
+<br>
+PPM does not offer that, because Puppy does not work that way. It is 
+outside the ambit, or we could say the "contract" of what PPM is 
+required to do. A new version of Puppy is provided as just three or four
+ files. Say for example you have a "frugal" installation of Puppy on 
+hard drive, it will consist of just three files, vmlinuz, initrd.gz and 
+the main Puppy filesystem (for example precise-5.3.sfs). There is also a
+ fourth file known as the "devx" (for example devx_precise_5.3.sfs). To 
+upgrade, all you do is replace those files. It is a totally different 
+system to a package-by-package upgrade. This page has more details: <a href="http://puppylinux.com/hard-puppy.htm">http://puppylinux.com/hard-puppy.htm</a> <br>
+<br>
+Regards,<br>
+
+Barry Kauler, May 2012<br>
+</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</body></html>

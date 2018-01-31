@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pwsget secure file downloader
+Icon=pwget.png
+Comment=Pwsget secure file downloader
+Exec=pwsget
+Terminal=false
+Type=Application
+Categories=X-Internet-transfer
+GenericName=Pwsget
+Name[es]=Pwsget | descarga segura de archivos

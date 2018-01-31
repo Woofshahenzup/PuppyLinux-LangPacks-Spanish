@@ -1,0 +1,69 @@
+#!/bin/bash
+#pSchedule
+#version=1.0
+#language=es:spanish
+#translator=native
+
+# |==================================|
+# | <b>text</b>            Bold text |
+# |==================================|
+
+set -a
+
+#engine
+any='cualquiera'
+month='mes'
+day='día'
+Every_hour_at='Cada hora a las'
+Every_minute='Cada minuto'
+during_the_hour='durante la hora'
+the='el' #the 3. of May
+of='de' #of January
+IN='en'
+if_its_on="si es los"
+Mondays='lunes'
+Tuesdays='martes'
+Wednesdays='miércoles'
+Thursdays='jueves'
+Fridays='viernes'
+Saturdays='sábados'
+Sundays='domingos'
+January='enero'
+February='febrero'
+March='marzo'
+April='abril'
+May='mayo'
+June='junio'
+July='julio'
+August='agosto'
+September='septiembre'
+October='octubre'
+November='noviembre'
+December='diciembre'
+
+#main gui
+Task_on_time='Tarea a tiempo'
+Task='Tarea'
+Schedule='Horario'
+Cron_command='Comando cronóm.'
+Add='Programar nueva tarea'
+Edit='Editar'
+Delete='Borrar'
+Run='ejecutar ahora'
+Quit='Salir'
+About='Acerca de'
+
+#editor
+Command='Comando'
+Time='Tiempo'
+Task_name='Nombre de tarea (opcional)'
+Hour='Hora'
+Minute='Min.'
+Day='Día'
+Date='Fecha'
+Month='Mes'
+Cron_time='Hora cronóm.'
+Next_run='Siguiente ejecución'
+
+#misc
+Delete_selected_task='Borrar tarea seleccionada'

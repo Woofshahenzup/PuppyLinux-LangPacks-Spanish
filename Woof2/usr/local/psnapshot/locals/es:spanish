@@ -1,0 +1,23 @@
+#!/bin/bash
+#psnapshot
+#version=1.x
+#language=spanish
+#translator:Native
+
+set -a
+
+#Gui
+LOC200="Pantalla"
+LOC201="Por favor elegir"
+LOC202="Esperar 10 seg."
+LOC203="Ahora"
+LOC204="Salir"
+
+
+#X-dialog
+LOC300="Por favor espere y prepare su pantalla"
+
+
+
+
+

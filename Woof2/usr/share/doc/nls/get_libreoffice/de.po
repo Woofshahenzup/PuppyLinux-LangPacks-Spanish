@@ -1,0 +1,238 @@
+# Get Libre0ffice
+# Copyright (C) 2011
+# This file is distributed under the same license as the get_libreoffice package.
+# FIRST AUTHOR <01micko@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-21 19:03+0200\n"
+"PO-Revision-Date: 2011-09-20 20:23+0200\n"
+"Last-Translator: fido <L18L@puppy.forum>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: get_libreoffice:37
+msgid "download libreoffice and make sfs"
+msgstr "libreoffice herunterladen und sfs erzeugen"
+
+#: get_libreoffice:41
+msgid ""
+"Welcome to the LibreOffice Installer \n"
+"\n"
+"This will download the Deb files from the LibreOffice server, \n"
+"as well as your locale files (optional), unpack them and \n"
+"convert them to the Puppy Squash File System (sfs). This is \n"
+"over 150MB download and can take a long time on a slow \n"
+"connection. The conversion to sfs can take a long time on \n"
+"slow machines. \n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Willkommen beim LibreOffice-Installierer \n"
+"\n"
+"Er wird die .deb-Dateien vom LibreOffice-Server herunterladen, \n"
+"und auch Sprachdateien (optional), sie entpacken und sie dann \n"
+"in ein Puppy Squash Dateisystem (sfs) konvertieren. Es sind über \n"
+"150MB herunterzuladen und das kann bei einer langsamen Verbindung \n"
+"eine Weile dauern. Die Konvertierung auf sfs kann auf langsamen \n"
+"Maschinen sehr lange dauern. \n"
+"\n"
+"Weitermachen?"
+
+#: get_libreoffice:51
+msgid "Yes"
+msgstr "Ja"
+
+#: get_libreoffice:52
+msgid "No"
+msgstr "Nein"
+
+#: get_libreoffice:61
+msgid "Please choose whether you want the latest stable or the testing version"
+msgstr "Bitte wählen, ob die letzte stabile oder die Testversion gewünscht ist"
+
+#: get_libreoffice:62
+msgid ""
+"Please note that testing version is not always updated, recommend stable"
+msgstr ""
+"Achtung: die Testversion ist nicht immer up-to-date, stabile wird empfohlen"
+
+#: get_libreoffice:63
+msgid "Stable"
+msgstr "Stabil"
+
+#: get_libreoffice:64
+msgid "Testing"
+msgstr "Test"
+
+#: get_libreoffice:79
+msgid "Please wait a moment"
+msgstr "Bitte einen Moment warten"
+
+#: get_libreoffice:86
+msgid ""
+"You already have an installation of LibreOffice. Please unload it from the "
+"Bootmanager or if a full install, uninstall with PPM before you proceed to "
+"install this version of LibreOffice"
+msgstr ""
+"Es ist bereits eine Installation von LibreOffice vorhanden. Bitte vom "
+"Bootmanager entladen lassen oder im Fall einer Vollinstallation von Puppy "
+"diese vor der Installation dieser Version von LibreOffice mit PPM "
+"deinstallieren"
+
+#: get_libreoffice:91
+msgid ""
+"You have an installation of OpenOffice. Please unload it from the "
+"Bootmanager or if a full install, uninstall with PPM before you proceed to "
+"install LibreOffice"
+msgstr ""
+"Es ist eine Installation von OpenOffice vorhanden. Bitte vom Bootmanager "
+"entladen lassen oder im Fall einer Vollinstallation von Puppy mit PPM "
+"deinstallieren vor der Installation dieser Version von LibreOffice"
+
+#: get_libreoffice:146
+msgid "Sorry, you don't have the space to construct a libreoffice sfs"
+msgstr ""
+"Sorry, zum Bau einer libreoffice.sfs ist nicht genug freier Speicherplatz "
+"vorhanden"
+
+#: get_libreoffice:153
+msgid "Sorry, you don't have the space to install libreoffice"
+msgstr ""
+"Sorry, zur Installation von libreoffice ist nicht genug freier Speicherplatz "
+"vorhanden"
+
+#: get_libreoffice:159
+msgid "USB and DVD installs are unsupported, Sorry"
+msgstr "Sorry, USB- und  DVD-Installationen sind nicht unterstützt."
+
+#: get_libreoffice:201
+msgid "There are 2 versions available, choose the one you want"
+msgstr "Es sind 2 Versionen verfügbar, bitte wählen"
+
+#: get_libreoffice:217
+msgid ""
+"Unable to get the version information. If you selected the testing version "
+"then it is likely that the testing version is unavailable. Try the stable "
+"version."
+msgstr ""
+
+#: get_libreoffice:218
+msgid ""
+"Unable to get the version information. It is possible that the LibreOffice "
+"servers are too busy, please try again later."
+msgstr ""
+
+#: get_libreoffice:243
+msgid "ABORTING"
+msgstr "ABBRUCH"
+
+#: get_libreoffice:244
+msgid "failed to get package info"
+msgstr "Paket-Info nicht erhalten"
+
+#: get_libreoffice:254
+msgid ""
+"Here you can chose to add some extra help and language packs. Don't add too "
+"many, as if the download breaks you will have to start again"
+msgstr ""
+"Hier hat man die Wahl, einige Hilfe- und Sprachpakete zusätzlich "
+"herunterzuladen. Nimm nicht zu viele, da Du bei Abbruch des Herunterladens "
+"von vorne wieder anfangen mußt."
+
+#: get_libreoffice:255
+msgid "Choose your extras"
+msgstr "Extras wählen"
+
+#: get_libreoffice:256
+msgid "Check extras"
+msgstr "Extras überprüfen"
+
+#: get_libreoffice:257
+msgid "Start again"
+msgstr "Nochmal starten"
+
+#: get_libreoffice:308
+msgid "Help files"
+msgstr "Hilfe-Dateien"
+
+#: get_libreoffice:324
+msgid "Locale files"
+msgstr "Sprachdateien"
+
+#: get_libreoffice:338
+msgid "Downloading LibreOffice"
+msgstr "Herunterladen von LibreOffice"
+
+#: get_libreoffice:351
+msgid "Downloading extra packs"
+msgstr "Herunterladen von extra Paketen"
+
+#: get_libreoffice:379
+msgid "Please wait while"
+msgstr "Bitte warten"
+
+#: get_libreoffice:380
+msgid "is unpacked and repacked into an sfs"
+msgstr "ist entpackt und in eine sfs-Datei konvertiert"
+
+#: get_libreoffice:460
+msgid "Now creating"
+msgstr "Konvertiere jetzt"
+
+#: get_libreoffice:489
+msgid "Sorry, constructing"
+msgstr "Sorry, Konvertierung"
+
+#: get_libreoffice:490
+msgid "has failed"
+msgstr "ging schief"
+
+#: get_libreoffice:507
+msgid "Success"
+msgstr "erfolg"
+
+#: get_libreoffice:508
+msgid "has been created"
+msgstr "wurde erzeugt"
+
+#: get_libreoffice:530
+msgid "You can now load"
+msgstr "Man kannn jetzt"
+
+#: get_libreoffice:531
+msgid "from the Bootmanager Utility"
+msgstr "vom Bootmanager aus laden"
+
+#: get_libreoffice:545
+msgid "Welcome to the Libre Office Installer"
+msgstr "Willkommen beim LibreOffice-Installierer"
+
+#: get_libreoffice:546
+msgid ""
+"needs to be downloaded anyway. You can choose to download the help files and "
+"your language pack"
+msgstr ""
+"muß ohnehin heruntergeladen werden. Du hast die Wahl, jetzt außerdem gleich "
+"Hilfe-Dateien und Sprachpakete mitherunterzuladen."
+
+#: get_libreoffice:547
+msgid "Current locale:"
+msgstr "momentane locale:"
+
+#: get_libreoffice:548
+msgid "Help file"
+msgstr "Hilfe-Datei"
+
+#: get_libreoffice:549
+msgid "Language pack"
+msgstr "Sprachpaket"
+
+#: get_libreoffice:550
+msgid "Extras"
+msgstr "Extras"

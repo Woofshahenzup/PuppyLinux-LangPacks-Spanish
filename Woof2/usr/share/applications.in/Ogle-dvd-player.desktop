@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ogle DVD movie player
+Name[es]=Ogle | reproductor de películas DVD
+Name[pt]=Ogle | reprodutor de filmes DVD
+Icon=mini-Setup
+Comment=Ogle DVD movie player
+Exec=ogle
+Terminal=false
+Type=Application
+Categories=AudioVideo
+GenericName=Ogle

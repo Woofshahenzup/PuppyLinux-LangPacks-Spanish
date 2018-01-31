@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Xdelta file difference manager
+Exec=xdelta_gui
+Icon=/usr/share/pixmaps/puppy/file_compare.svg
+Categories=X-Utility
+GenericName=Xdelta
+Name[es]=Xdelta-Administrador de diferencias de Archivos
+Name[es]=Xdelta | administrar diferencias entre archivos

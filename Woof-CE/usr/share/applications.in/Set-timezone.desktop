@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Set timezone
+Icon=/usr/share/pixmaps/puppy/country_timezone.svg
+Comment=Set timezone
+Exec=timezone-set
+Terminal=false
+Type=Application
+Categories=X-DesktopCountry
+GenericName=Set timezone
+Name[es]=Ajusta Zona Horaria
+Name[es]=Ajustar huso horario

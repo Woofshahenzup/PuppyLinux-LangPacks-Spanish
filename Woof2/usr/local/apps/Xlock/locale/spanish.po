@@ -1,0 +1,46 @@
+#!/bin/sh
+# Xlockmore gui translation file
+# language es_AR
+
+##################################
+# Password dialog
+#
+export LOC_PASSWINDOW="Borrar contraseña de Xlock"
+export LOC_PASSTEXT="     La primera vez que se inicia, Xlock pide una clave, o sea una
+contraseña. Para cambiar la contraseña ud. necesita eliminar el
+archivo $HOME/.xlockrc, que es lo único que hace este botón..."
+export LOC_CLEARBUTTON="Haga clic para borrar la contraseña"
+
+##################################
+# Configuration window
+#
+export LOC_PRETEXT1="\"Esta ventana es para configurar Xlock como bloqueador de pantalla. Xlock es un sistema de privacidad que ud. invoca manualmente y con una contraseña para desbloquear, esto es lo que Xlock hace, con figuras bonitas adicionales al bloquear.
+
+Después de previsualizar, haga clic en 'Aceptar' para aplicar lo que quiera...\""
+export LOC_PRETEXT2="\"     Esta ventana es para elegir una imagen animada de fondo
+de escritorio. Note que también hay un icono de Xlock en el escritorio que
+bloquea la pantalla, mostrando solo la animación.
+
+Después de previsualizar, haga clic en 'Aceptar' para aplicar lo que quiera...\""
+export LOC_KILLBOX="Finalizar cualquier animación actualmente activa:"
+export LOC_KILLBUTTON="FINALIZAR"
+export LOC_CFGWINDOW="Xlock: el modo actual es"
+export LOC_TREE="Modo | Descripción"
+# modes
+export LOC_BALL="muestra pelotas que rebotan"
+export LOC_BLANK="una pantalla negra"
+export LOC_DCLOCK="reloj digital flotante"
+export LOC_GLOOP="viscosidad de una lámpara de lava"
+export LOC_LYAPUNOV="muestra el espacio de lyapunov"
+export LOC_MANDELBROT="muestra los diseños de mandelbrot"
+export LOC_MATRIX="muestra matrix (la película)"
+export LOC_PENROSE="muestra mosaicos cuasiperiódicos"
+export LOC_SOLITAIRE="muestra un juego de solitario"
+export LOC_SPIRAL="muestra una serie de puntos en espiral"
+export LOC_SWIRL="muestra una animación de patrones en espiral"
+export LOC_BOMB="una bomba de tiempo que se cierra después de una demora"
+export LOC_RANDOM="modo aleatorio"
+# buttons
+export LOC_PREVIEW="Vista previa"
+
+

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PupsaveConfig personal storage setup
+Name[ja]=個人保存ファイルの設定
+Name[ru]=Настройка персонального файла
+Icon=wizard16.xpm
+Comment=PupSave personal storage setup
+Exec=pupsaveconfig
+Terminal=false
+Type=Application
+Categories=X-SetupWizard
+GenericName=PupSave personal storage file setup
+Name[es]=PupsaveConfig | crear archivo de sesión

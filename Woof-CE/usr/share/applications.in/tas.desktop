@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Take a Shot!
+Icon=/usr/share/pixmaps/puppy/photocamera.svg
+Comment=Screenshot utility
+Exec=tas
+Terminal=false
+Type=Application
+Categories=X-GraphicUtility
+Name[es]=Take a Shot! capturar pantalla

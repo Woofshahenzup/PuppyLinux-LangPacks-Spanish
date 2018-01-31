@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gtkam camera manager
+Name[es]=Gtkam | gestor de cámara digital
+Comment=Transfer pictures from your digital camera
+Comment[es]=Transferir fotos de su cámara digital
+Exec=gtkam
+Icon=gtkam.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-GraphicUtility
+Name[es]=Gtkam | gestor de cámaras

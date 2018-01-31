@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=cups_shell
+GenericName=
+Icon=/usr/share/pixmaps/puppy/print.svg
+MimeType=
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Name=CUPS Printer Wizard
+Comment=CUPS Printer Wizard
+Categories=X-Setup-wizard
+Name[es]=CUPS-Gestor de Impresiones
+Name[es]=Asistente de Impresión CUPS

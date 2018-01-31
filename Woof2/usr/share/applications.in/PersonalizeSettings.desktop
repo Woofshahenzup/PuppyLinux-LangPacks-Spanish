@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[es]=Personalizar - Ajustes
+Name=Personalize - Settings
+Icon=mini-Setup
+Comment=Screen resolution and country settings 
+Exec=firstrun
+Terminal=false
+Type=Application
+Categories=X-SetupEntry
+GenericName=Personalize Settings

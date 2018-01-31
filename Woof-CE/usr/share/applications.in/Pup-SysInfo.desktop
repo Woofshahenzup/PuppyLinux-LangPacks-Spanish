@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pup-SysInfo system information
+Name[es]=Pup-SysInfo | información del sistema
+Icon=/usr/local/Pup-SysInfo/icons/Pup-SysInfo48.png
+Comment=System information utility
+Exec=Pup-SysInfo
+Terminal=false
+Type=Application
+Categories=System
+GenericName=System information utility

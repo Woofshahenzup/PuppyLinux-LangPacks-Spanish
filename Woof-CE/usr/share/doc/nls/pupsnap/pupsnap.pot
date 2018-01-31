@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-12 20:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: PupSnap.sh:14
+msgid "PupSnap is already active."
+msgstr ""
+
+#: PupSnap-bin.sh:31
+msgid ""
+"The Scrot support files are not available! \\n\\n Please install Scrot and "
+"the imlib2 library \\n compatible with this Puppy Linux version."
+msgstr ""
+
+#: PupSnap-bin.sh:67
+msgid ""
+"PupSnap supports the following file managers: \\n ROX-Filer, Thunar, "
+"PCManFM, PCManFM2 or Xfe."
+msgstr ""
+
+#: PupSnap-bin.sh:112 PupSnap-bin.sh:115
+msgid "288"
+msgstr ""
+
+#: PupSnap-bin.sh:112 PupSnap-bin.sh:115
+msgid "97"
+msgstr ""
+
+#: PupSnap-bin.sh:112 PupSnap-bin.sh:115
+msgid "199"
+msgstr ""
+
+#: PupSnap-bin.sh:113
+msgid "308"
+msgstr ""
+
+#: PupSnap-bin.sh:113 PupSnap-bin.sh:114
+msgid "105"
+msgstr ""
+
+#: PupSnap-bin.sh:113 PupSnap-bin.sh:114
+msgid "215"
+msgstr ""
+
+#: PupSnap-bin.sh:114
+msgid "310"
+msgstr ""
+
+#: PupSnap-bin.sh:116
+msgid "274"
+msgstr ""
+
+#: PupSnap-bin.sh:116 PupSnap-bin.sh:117 PupSnap-bin.sh:118 PupSnap-bin.sh:119
+msgid "92"
+msgstr ""
+
+#: PupSnap-bin.sh:116 PupSnap-bin.sh:117 PupSnap-bin.sh:118 PupSnap-bin.sh:119
+msgid "189"
+msgstr ""
+
+#: PupSnap-bin.sh:117
+msgid "278"
+msgstr ""
+
+#: PupSnap-bin.sh:118
+msgid "280"
+msgstr ""
+
+#: PupSnap-bin.sh:119
+msgid "284"
+msgstr ""
+
+#: PupSnap-bin.sh:127
+msgid "Restore Ctrl+Shift+S hotkey"
+msgstr ""
+
+#: PupSnap-bin.sh:128
+msgid "Key"
+msgstr ""
+
+#: PupSnap-bin.sh:139
+msgid "Setup  | Full-Screen | Window | Region |  Help"
+msgstr ""
+
+#: PupSnap-bin.sh:145
+msgid "Name"
+msgstr ""
+
+#: PupSnap-bin.sh:146
+msgid "Name for captured image"
+msgstr ""
+
+#: PupSnap-bin.sh:154
+msgid "Folder"
+msgstr ""
+
+#: PupSnap-bin.sh:155
+msgid "Folder destination for captured image"
+msgstr ""
+
+#: PupSnap-bin.sh:165
+msgid ""
+"This option assigns the current date and time to the image \n"
+" name. Information in the Name entry box will be ignored."
+msgstr ""
+
+#: PupSnap-bin.sh:167
+msgid "Date"
+msgstr ""
+
+#: PupSnap-bin.sh:176
+msgid "Folder selector"
+msgstr ""
+
+#: PupSnap-bin.sh:178
+msgid "PupSnap-Folder"
+msgstr ""
+
+#: PupSnap-bin.sh:184
+#, sh-format
+msgid "Manage images with $FM"
+msgstr ""
+
+#: PupSnap-bin.sh:194
+msgid "Options"
+msgstr ""
+
+#: PupSnap-bin.sh:198
+msgid "Delay"
+msgstr ""
+
+#: PupSnap-bin.sh:199
+msgid "Capture delay in seconds"
+msgstr ""
+
+#: PupSnap-bin.sh:206
+msgid "Format"
+msgstr ""
+
+#: PupSnap-bin.sh:207
+msgid "Graphic image format"
+msgstr ""
+
+#: PupSnap-bin.sh:214
+msgid "Quality"
+msgstr ""
+
+#: PupSnap-bin.sh:215
+msgid ""
+"The Quality option applies only to images in the jpg format. \n"
+" Recommended values of 75-85 render jpg images of good \n"
+" visual quality, with significant file compression. There is no \n"
+" impact on png, bmp or tiff images. See Help for guidelines."
+msgstr ""
+
+#: PupSnap-bin.sh:225
+msgid "Size"
+msgstr ""
+
+#: PupSnap-bin.sh:226
+msgid ""
+"Select Default to capture the original image size. \n"
+" Choose the pixel options to capture the image in \n"
+" standard screen sizes – or the percent options to \n"
+" reduce the image to a percentage of the original. \n"
+" The 600px option will reduce a large screenshot \n"
+" to the 600-pixel width which is forum-compatible."
+msgstr ""
+
+#: PupSnap-bin.sh:242
+msgid "Editor"
+msgstr ""
+
+#: PupSnap-bin.sh:243
+msgid "Graphic image editor"
+msgstr ""
+
+#: PupSnap-bin.sh:250
+msgid "Viewer"
+msgstr ""
+
+#: PupSnap-bin.sh:251
+msgid "Graphic image viewer"
+msgstr ""
+
+#: PupSnap-bin.sh:262 PupSnap-bin.sh:289 PupSnap-bin.sh:328
+msgid "Capture"
+msgstr ""
+
+#: PupSnap-bin.sh:264
+msgid "Full-Screen"
+msgstr ""
+
+#: PupSnap-bin.sh:266
+msgid ""
+"Capturing a full-screen image to a bitmap \n"
+"  format is the hallmark of any all-purpose \n"
+"  capture utility. You can (1) Save an image \n"
+"  to disk for later retrieval, or (2) Save and \n"
+"  send directly to the default image editor."
+msgstr ""
+
+#: PupSnap-bin.sh:273 PupSnap-bin.sh:300 PupSnap-bin.sh:339
+msgid "Save to current folder"
+msgstr ""
+
+#: PupSnap-bin.sh:274 PupSnap-bin.sh:301 PupSnap-bin.sh:340
+msgid "Save"
+msgstr ""
+
+#: PupSnap-bin.sh:279 PupSnap-bin.sh:306 PupSnap-bin.sh:345
+msgid ""
+"Save to current folder - then \n"
+" send to default image editor"
+msgstr ""
+
+#: PupSnap-bin.sh:281 PupSnap-bin.sh:308 PupSnap-bin.sh:347
+msgid "Edit"
+msgstr ""
+
+#: PupSnap-bin.sh:291
+msgid "Window"
+msgstr ""
+
+#: PupSnap-bin.sh:293
+msgid ""
+"When selecting a window for capture,  \n"
+"  imaging the outside border is optional.  \n"
+"     (1) Select the border preference  \n"
+"     (2) Select the Save or Edit option  \n"
+"     (3) Left-click a window to capture"
+msgstr ""
+
+#: PupSnap-bin.sh:316
+msgid ""
+"Check to include border \n"
+"  or uncheck to exclude"
+msgstr ""
+
+#: PupSnap-bin.sh:318
+msgid "Border"
+msgstr ""
+
+#: PupSnap-bin.sh:330
+msgid "Region (ROI)"
+msgstr ""
+
+#: PupSnap-bin.sh:332
+msgid ""
+"When capturing a window or full screen  \n"
+"  is unnecessary, you may find a smaller  \n"
+"  region is appropriate. (1) Select Save or  \n"
+"  Edit, and (2) use the left mouse button  \n"
+"  to outline a rectangular capture region."
+msgstr ""
+
+#: PupSnap-bin.sh:357
+msgid "PupSnap GUI for Scrot"
+msgstr ""
+
+#: PupSnap-bin.sh:359
+msgid ""
+"PupSnap is a graphical user interface for  \n"
+"  the Scrot CLI screen capture utility which  \n"
+"  uses the imlib2 library to acquire images.  \n"
+"\n"
+"    Roger D. Grider, Copyright 2012 GPL3"
+msgstr ""
+
+#: PupSnap-bin.sh:366
+msgid "Open help file in default browser"
+msgstr ""
+
+#: PupSnap-bin.sh:367
+msgid "Help"
+msgstr ""
+
+#: PupSnap-bin.sh:377
+msgid "View images in current folder"
+msgstr ""
+
+#: PupSnap-bin.sh:378
+msgid "View"
+msgstr ""
+
+#: PupSnap-bin.sh:386
+msgid "Close PupSnap"
+msgstr ""
+
+#: PupSnap-bin.sh:387
+msgid "Exit"
+msgstr ""
+
+#: hkey_func.sh:70
+msgid ""
+"The PupSnap hotkey binding has been restored. \\n\\n Please restart your "
+"window manager now."
+msgstr ""

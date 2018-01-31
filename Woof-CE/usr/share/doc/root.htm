@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title></title>
+</head>
+<body>
+<table cellpadding="2" cellspacing="2" align="center" border="0" width="600">
+  <tbody>
+    <tr>
+      <td valign="top">
+        <h1>Sobre root, spot y fido<br>
+        </h1>
+Esta es una breve explicación de por qué los usuarios operan como 
+administrador (root) en Puppy Linux, y/o usan las cuentas no-root spot y
+ fido.<br>
+        <h2>root, spot, fido</h2>
+ En resumen, iniciar sesión como root le da acceso total a todo, 
+mientras que iniciar sesión como no-root le da acceso limitado (el 
+administrador puede configurar eso para cada usuario).<br>
+Puppy no es un sistema multi-usuario como lo es la mayoría de las otras 
+distribuciones de Linux, en las cuales hay un acceso root más cualquier 
+número de cuentas de acceso no-root.<br>
+Por otro lado, Puppy tiene root, más solamente dos usuarios no-root, llamados spot y fido.<br><h2>root</h2>
+Hay dos objeciones principales a operar como root: primeramente, que se 
+podría cometer una torpeza accidentalmente, como eliminar archivos 
+importantes, segundo que si alguien gana acceso a la computadora, sea 
+remotamente a través de Internet/red, o localmente, estará a nivel root y
+ podrá hacer mucho más daño que si ganase acceso como usuario no-root.<br>
+        
+<h3>Cometer una torpeza<br>
+
+</h3>
+
+
+En el caso de borrar accidentalmente archivos importantes, ¿cuáles 
+archivos son importantes para usted? Sus propios archivos y datos 
+personales, claro, con los cuales sin importar que usted haya accedido 
+con una cuenta no-root o como root, es probable que usted pueda cometer 
+la misma torpeza. Es decir, sus archivos personales, configuraciones, 
+aplicaciones, todos le pertenecen al usuario no-root, que los puede 
+borrar tan fácilmente como puede el administrador.<br>
+En otras palabras, este argumento contra operar como root es en sí mismo
+ torpe. Al menos respecto a la seguridad de sus propios archivos.<br>
+<br>
+Donde sí es válido el argumento de "cometer una torpeza" es en un 
+sistema multi-usuario, donde el administrador podría eliminar 
+accidentalmente o de lo contrario comprometer los archivos de otro 
+usuario. Sin embargo, Puppy no es multi-usuario.<br>
+<br>
+
+En cuanto a los archivos del sistema, se pueden restaurar fácilmente, de
+ hecho Puppy facilita esto ya que el sistema entero está en un solo 
+archivo Squashfs.<br>
+        <h3>Acceso remoto como root</h3>
+¿A qué le teme? A que alguien acceda a sus archivos y datos personales, 
+especialmente cosas tales como datos de identificación y 
+usuario/contraseña. Mucho de esto está en su computadora, y si usted usa
+ una distro en la que inicia sesión como usuario no-root, están en 
+archivos pertenecientes a su cuenta no-root, lo que significa que son 
+igualmente accesibles para alguien que irrumpe como usuario no-root o 
+como root.<br>
+<br>
+Sin embargo, hay dos casos en los cuales operar como root tiene un 
+riesgo de seguridad, solamente uno de los cuales se aplica a Puppy. <br>
+<br>
+Primero, si usted ingresa como no-root, puede saltar a nivel root para 
+realizar ciertas operaciones tales como mantener un archivo de nombres 
+de usuario y contraseñas. También hay aplicaciones que usan archivos 
+secretos propiedad del root, que se supone que no los deben leer los 
+usuarios no-root. Así, cualquiera que gane acceso como root puede leer 
+todos esos archivos.<br>
+<br>
+Una nota al margen sobre el párrafo anterior: las distros importantes 
+como Ubuntu permiten a la primera cuenta de usuario saltar a root con 
+solo anteponder "sudo" o "su" a los comandos, sin requerir la contraseña
+ del root, lo que convierte al mecanismo de protección entero en una 
+broma. Considerando que la mayoría de los usuarios de Ubuntu estén 
+usando esta primera cuenta de sesión regularmente para ingresar.<br>
+<br>
+Segundo, en un entorno multi-usuario, el enemigo puede ser otro usuario.
+ Usted nunca dejaría que los usuarios ingresen como root en ese caso. 
+Pero, repito, Puppy no es multi-usuario.<br>
+<br>
+
+Nota, Puppy permite múltiples archivos de sesión personales (<i>save-file</i> o <i>pupsave</i>
+ en inglés), los cuales son gestionados por un usuario para diferentes 
+perfiles de uso. Sin embargo, esto también puede servir para diferentes 
+usuarios, hasta con la opción de proteger el archivo de sesión con 
+contraseña, pero esto es solo para usar en un entorno local "amigable". 
+Es una alternativa muy liviana a un sistema multi-usuario.<br>
+        <br>
+Puppy supone un entorno local "amigable", y la principal amenaza viene 
+de alguien que gana acceso a su computadora a través de los puertos de 
+red cuando usted está en línea.<br>
+Lo cual es muy improbable en Puppy, debido al cortafuego (<i>firewall</i> en inglés), <i>daemons</i> de capacidad mínima (con capacidad de red deahabilitada). Pero la preocupación sigue allí...<br>
+        <h2><img alt="" src="../../../root/spot/spot.png" align="middle" height="100" width="100"> spot</h2>
+Esto nos lleva a <i>spot</i>, que en inglés es un nombre clásico para un
+ perro. Pero spot no es un usuario normal, uno no ingresa como usuario 
+spot. En vez de eso, uno arranca en la manera normal como usuario root, 
+pero se puede elegir usar algunas aplicaciones de Internet como el 
+usuario limitado spot.<br>
+Esto significa que usted tiene acceso ilimitado en su sistema local, 
+todos los beneficios del root, sin apuros con propietarios y permisos de
+ archivos/directorios, sin restricciones en el acceso a todo el hardware.<br>
+Pero, usted puede usar, por ejemplo, SeaMonkey (<i>suite</i> con navegador, Composer, correo y noticias, chat IRC), como spot. El directorio inicio (o <i>home</i> en inglés) para spot es /root/spot, y SeaMonkey solo podrá (normalmente) editar/crear/escribir archivos dentro de /root/spot.<br>
+        <br>
+Con spot, usted tiene lo mejor de dos mundos. Libertad en su sistema local, un usuario limitado para acceder a Internet.<br>
+<br>
+Nota, al momento de escribir, Puppy ofrece solo Didiwiki blog personal 
+funcionando como spot y SeaMonkey opcionalmente funcionando como spot, 
+usted puede elegir su nivel de peligro de navegación a través del Gestor
+ de Sesión y Seguridad <i>LoginManager</i> en el menú Sistema.<br>
+Un fork de Puppy, FatDog64, tiene todas las aplicaciones de Internet funcionando como spot.<br>
+        <h2><img alt="" src="fido96.png" align="middle" height="96" width="96"> fido</h2>
+fido es otro nombre en inglés para un perro, y es una cuenta de sesión 
+no-root completa, como se conseguiría en cualquier otra distro de Linux.
+ Con una perculiaridad, su directorio inicio es /root (lo cual le puede 
+parecer muy peculiar a usted, pero hay una razón para ello). Como con 
+otras distros, usted usaría 'su' o 'sudo' para realizar activiades de 
+administrador.<br>
+<br>
+fido siempre requiere la contraseña de administrador para realizar operaciones a nivel administrador.<br>
+        <br>
+fido se ofrece como una opción en el primer apagado de Puppy, cuando 
+usted está creando un archivo personal para la sesión. Si usted opta por
+ fido, en el siguiente arranque se le hará ingresar automáticamente como
+ fido. Pero note que fido no está tan maduro, así que todavía no es 
+recomendable su uso.<br>
+        <h2>Nota final<br>
+</h2>
+Puppy está diseñado para personas que saben lo que están haciendo y lo 
+que quieren, y quieren hacerlo con la menor cantidad de apuros. También 
+quieren uso exclusivo de su computadora, o tal vez la comparten con una 
+persona de confianza. Si usted quiere poner un niño pequeño frente a su 
+computadora y dejar que haga desastre, Puppy no es recomendable, pero 
+luego, se puede hacer desastre sin importar el sistema operativo.<br>
+Por lo menos con Puppy, usted puede rescatar una PC vieja, y dejarle que
+ haga lo que sea. Es accesible que cada usuario tenga su propio hardware
+ por separado.<br>
+<h2>Enlaces</h2>
+FatDog64, un fork de Puppy creado por "kirk" y "jamesbond", ha aplicado 
+desde su creación todos los programas de red como usuario spot. Estos 
+tipos han creado una excelente página web (en inglés) que explica por 
+qué funcionar como root es seguro (o no menos seguro que funcionar como 
+no-root):<br>
+<br>
+<a href="http://distro.ibiblio.org/fatdog/web/faqs/login.html">http://distro.ibiblio.org/fatdog/web/faqs/login.html</a> <br>
+<br>
+Más enlaces relevantes:<br>
+<br>
+<a href="http://igurublog.wordpress.com/2010/01/16/fear-not-root/">http://igurublog.wordpress.com/2010/01/16/fear-not-root/</a> <br>
+<a href="http://web.archive.org/web/20080604034010/grafpup.org/news/?page_id=243">http://web.archive.org/web/20080604034010/grafpup.org/news/?page_id=243</a> <br>
+<br>
+        <br>
+Saludos,<br>
+Barry Kauler<br>
+        <small>(c) Copyright Barry Kauler 2013</small> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+</body></html>

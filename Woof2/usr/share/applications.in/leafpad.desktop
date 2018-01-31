@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[es]=Leafpad | simple editor de texto
+Name=Leafpad Simple Text Editor
+Icon=leafpad.png
+Comment=Leafpad Simple Text Editor
+Exec=leafpad
+Terminal=false
+Type=Application
+Categories=TextEditor
+GenericName=Leafpad Simple Text Editor

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PupSnap screen capture
+Name[es]=PupSnap | capturar pantalla
+Name[pt]=Pupsnap capturar a tela
+Icon=/usr/local/PupSnap/icons/camera20.png
+Comment=PupSnap screen capture
+Comment[es]=Pupsnap capturar pantalla
+Exec=/usr/local/PupSnap/PupSnap
+Terminal=false
+Type=Application
+Categories=X-GraphicUtility
+GenericName=PupSnap screen capture

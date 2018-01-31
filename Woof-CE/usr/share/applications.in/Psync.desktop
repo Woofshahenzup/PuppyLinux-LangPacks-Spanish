@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Psync Time Server Synchronisation
+Name[fr]=Psync Synchroniser Date et Heure avec un serveur
+Icon=/usr/share/pixmaps/puppy/clock_countdown.svg
+Comment=Psync Time Server Synchronisation
+Comment[fr]=Synchronisation automatique de la date et de l'heure avec un serveur distant
+Exec=/usr/local/psync/psync
+Terminal=false
+Type=Application
+Categories=X-DesktopCountry
+GenericName=Psync Time Server Synchronisation
+Name[es]=Psync | sincronizar con servidor de hora

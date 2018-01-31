@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=QuickSetup first-run settings
+Name[ru]=QuickSetup настройки при первом запуске
+Icon=/usr/local/video_upgrade/xsettings24.xpm
+Comment=First-run screen resolution and country settings 
+Exec=quicksetup
+Terminal=false
+Type=Application
+Categories=X-SetupEntry
+GenericName=QuickSetup
+Name[es]=QuickSetup | ajustes del 1er. inicio

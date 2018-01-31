@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the report-video package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: report-video VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-26 12:12-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: report-video.sh:30
+msgid "unknown"
+msgstr ""
+
+#: report-video.sh:31 report-video.sh:167
+msgid "...the report is also recorded in /tmp/report-video"
+msgstr ""
+
+#: report-video.sh:32
+msgid "version"
+msgstr ""
+
+#: report-video.sh:33
+msgid "Report video"
+msgstr ""
+
+#: report-video.sh:34
+msgid "in use"
+msgstr ""
+
+#: report-video.sh:35
+msgid "Window manager"
+msgstr ""
+
+#: report-video.sh:36
+msgid "Total"
+msgstr ""
+
+#: report-video.sh:37
+msgid "Task"
+msgstr ""
+
+#: report-video.sh:38
+msgid "Mouse"
+msgstr ""
+
+#: report-video.sh:39
+msgid "Scanner"
+msgstr ""
+
+#: report-video.sh:40
+msgid "Type 'report-video' in terminal"
+msgstr ""
+
+#: report-video.sh:85 report-video.sh:177
+msgid "VIDEO REPORT:"
+msgstr ""
+
+#: report-video.sh:88
+msgid "Chip description:"
+msgstr ""
+
+#: report-video.sh:97
+msgid "Requested by /etc/X11/xorg.conf:"
+msgstr ""
+
+#: report-video.sh:98
+msgid "Resolution (widthxheight, in pixels):"
+msgstr ""
+
+#: report-video.sh:99
+msgid "Depth (bits, or planes):"
+msgstr ""
+
+#: report-video.sh:101
+msgid "Modules requested to be loaded:"
+msgstr ""
+
+#: report-video.sh:103
+msgid "Modules requested to not be loaded:"
+msgstr ""
+
+#: report-video.sh:107
+msgid "Drivers requested to be loaded:"
+msgstr ""
+
+#: report-video.sh:110
+msgid "NOTE: there is no /etc/X11/xorg.conf configuration file."
+msgstr ""
+
+#: report-video.sh:117
+msgid "Probing Xorg startup log file (/var/log/Xorg.0.log):"
+msgstr ""
+
+#: report-video.sh:129
+msgid "Driver loaded (and currently in use):"
+msgstr ""
+
+#: report-video.sh:141
+msgid "Loaded modules:"
+msgstr ""
+
+#: report-video.sh:146
+msgid "Actual rendering on monitor:"
+msgstr ""
+
+#: report-video.sh:150 report-video.sh:156
+msgid "Resolution:"
+msgstr ""
+
+#: report-video.sh:152
+msgid "Depth:"
+msgstr ""
+
+#: report-video.sh:176
+msgid "System Info"
+msgstr ""
+
+#: report-video.sh:178
+msgid "Current time"
+msgstr ""
+
+#: report-video.sh:179
+msgid "Language"
+msgstr ""
+
+#: report-video.sh:180
+msgid "Operating system"
+msgstr ""
+
+#: report-video.sh:184 report-video.sh:187
+msgid "Processor"
+msgstr ""
+
+#: report-video.sh:185
+msgid "Frequency(MHz)"
+msgstr ""
+
+#: report-video.sh:240
+msgid "Printer"
+msgstr ""
+
+#: report-video.sh:297
+msgid "Texteditor"
+msgstr ""
+
+#: report-video.sh:319
+msgid ">>> Please update gtkdialog version"
+msgstr ""
+
+#: report-video.sh:365
+msgid "This clock type is best for Linux-only machine"
+msgstr ""
+
+#: report-video.sh:367
+msgid "This clock type is best for a mainly Windows machine"
+msgstr ""
+
+#: report-video.sh:374
+msgid "PupSave file"
+msgstr ""
+
+#: report-video.sh:379
+msgid "PupSave file is not in use"
+msgstr ""
+
+#: report-video.sh:387
+msgid "Total memory"
+msgstr ""
+
+#: report-video.sh:388
+msgid "Used memory"
+msgstr ""
+
+#: report-video.sh:396
+msgid "Report memory"
+msgstr ""
+
+#: report-video.sh:422
+msgid "Swap"
+msgstr ""
+
+#: report-video.sh:428
+msgid "Driver blacklist"
+msgstr ""
+
+#: report-video.sh:470
+msgid "Shell variables"
+msgstr ""
+
+#: report-video.sh:489
+msgid "Applications should be installed here..."
+msgstr ""
+
+#: report-video.sh:506
+msgid "/var/spool/cron/crontabs/root is a list of tasks scheduled"
+msgstr ""
+
+#: report-video.sh:518 report-video.sh:520
+msgid "There are no tasks on list."
+msgstr ""
+
+#: report-video.sh:522
+msgid "There are"
+msgstr ""
+
+#: report-video.sh:522
+msgid "task(s) on list."
+msgstr ""
+
+#: report-video.sh:532
+msgid "No Name Found"
+msgstr ""

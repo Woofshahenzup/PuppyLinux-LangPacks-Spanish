@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lighthouse report-video
+Name[es]=Lighthouse | información de video
+Name[pt]=Lighthouse | informação de vídeo
+Comment=Video Reporting Tool
+Exec=report-video
+Terminal=false
+Type=Application
+Categories=System
+GenericName=Graphics interface information
+Icon=mini-Setup

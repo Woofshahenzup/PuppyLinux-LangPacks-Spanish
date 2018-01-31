@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lxpup Apps Center
+Name[es]=Centro de Aplics. de Lxpup
+Icon=mini-Setup.xpm
+Comment=Popular packages
+Exec=defaultbrowser http://lxpup.weebly.com/applications.html
+Terminal=false
+Type=Application
+Categories=X-SetupEntry
+GenericName=Lxpup Apps Center
